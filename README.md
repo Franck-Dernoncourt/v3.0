@@ -1,3 +1,3 @@
-# Documentation for v3.0 of the MIMIC2 Database
+# User guide for the MIMIC-II database
 
-
+...
