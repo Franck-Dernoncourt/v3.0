@@ -40,15 +40,15 @@ final release to avoid confusion.
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
 ```REC_ID``` | NUMBER | Y | Primary key
-```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to D\_PATIENTS
+```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | N | Foreign key, referring to ADMISSIONS
 ```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ICUSTAYEVENTS
 ```ELEM_ID``` | NUMBER(7) | N | Element ID of each note
 ```CHARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Datetime of the note request
 ```REALTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Datetime of the note request
-```CGID``` | NUMBER(7) | N | Foreign key, referring to D\_CAREGIVERS
+```CGID``` | NUMBER(7) | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CORRECTION``` | CHAR(1) | N | Is the note a correction to a previous note?
-```CUID``` | NUMBER(7) | N | Foreign key, referring to D\_CAREUNITS
+```CUID``` | NUMBER(7) | N | Foreign key, referring to ```D_CAREUNITS```
 ```CATEGORY``` | VARCHAR2(26) | N | Type of note
 ```TITLE``` | VARCHAR2(255) | N | Title of the note
 ```TEXT``` | CLOB | N | Main body of the note
