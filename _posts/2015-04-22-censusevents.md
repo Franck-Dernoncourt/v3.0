@@ -23,6 +23,6 @@ Column name | Data type | New Column | Remarks
 ```LOS``` | NUMBER | N | ICU length of stay in minutes
 ```DESTCAREUNIT``` | NUMBER(7) | N | Destination care unit
 ```DISCHSTATUS``` | VARCHAR2(20) | N | Discharge status
-```CENSUSEVENTSDATAID``` | NUMBER | Y | Unique row Identifier
+```CENSUSEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
 *Table: Description of the columns in the ```CENSUSEVENTS``` table*
