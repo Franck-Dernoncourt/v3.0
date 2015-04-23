@@ -8,4 +8,14 @@ order: 21
 
 #### ```LCP_ELIXHAUSER_SCORES``` table
 
-
+Column name | Data type | New Column | Remarks
+--- | --- | --- | ---
+X | X | N | ?
+X | X | N | ?
+X | X | N | ?
+X | X | N | ?
+X | X | N | ?
+X | X | N | ?
+X | X | N | ?
+X | X | N | ?
+X | X | Y | ?

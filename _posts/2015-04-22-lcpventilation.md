@@ -8,4 +8,12 @@ order: 22
 
 #### ```LCP_VENTILATION``` table
 
-
+Column name | Data type | New Column | Remarks
+--- | --- | --- | ---
+X | X | X | ?
+X | X | X | ?
+X | X | X | ?
+X | X | X | ?
+X | X | X | ?
+X | X | X | ?
+X | X | Y | ?

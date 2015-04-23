@@ -27,8 +27,8 @@ ITEMS (refer to table 3).**
 
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
-```SUBJECT\_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
-```ICUSTAY\_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUSTAYEVENTS```
+```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
+```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUSTAYEVENTS```
 ```ORDERID``` | NUMBER(10) | Y | Foreign key, referring to ```ORDERENTRY```
 ```ITEMID``` | NUMBER(7) | N | Foreign key, referring to ```D_ITEMS```
 ```LABEL``` | VARCHAR2(100) | Y | Included for easy word-based searches
