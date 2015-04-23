@@ -21,8 +21,8 @@ Column name | Data Type | Remarks
 ```SUBJECT_ID``` | NUMBER(7) | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | Foreign key, referring to ```ADMISSIONS```
 ```ICUSTAY_ID``` | NUMBER(7) | Foreign key, referring to ```ICUSTAYEVENTS```
-```START_DT``` | TIMESTAMP(6) WITH TIME ZONE | Start date of the POE order
-```STOP_DT``` | TIMESTAMP(6) WITH TIME ZONE | Stop date of the POE order
+```STARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | Start date of the POE order
+```ENDTIME``` | TIMESTAMP(6) WITH TIME ZONE | Stop date of the POE order
 ```DRUG_TYPE``` | VARCHAR2(80) | Type of drug
 ```DRUG``` | VARCHAR2(80) | Name of the drug
 ```DRUG_NAME_POE``` | VARCHAR2(80) | Name of the drug(2). Column to be removed.
