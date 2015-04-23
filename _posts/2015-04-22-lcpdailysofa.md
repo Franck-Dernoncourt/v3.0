@@ -10,14 +10,15 @@ order: 20
 
 Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | Y | ?
+SUBJECT_ID | NUMBER(7) | N | ?
+ICUSTAY_ID | NUMBER(7) | N | ?
+ICUSTAY_DAY | NUMBER(7) | N | ?
+RESPIRATORY_FAILURE | NUMBER | N | ?
+NEUROLOGICAL_SCORE | NUMBER | N | ?
+CARDIOVASCULAR_SCORE_FINAL | NUMBER | N | ?
+HEPATIC_SCORE | NUMBER | N | ?
+HEMATOLOGIC_SCORE | NUMBER | N | ?
+RENAL_SCORE | NUMBER | N | ?
+SOFA_TOTAL | NUMBER | N | ?
+LCP_DAILY_SOFADATAID | NUMBER | N | ?
+

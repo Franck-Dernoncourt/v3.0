@@ -11,22 +11,23 @@ order: 19
 
 Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | N | ?
-X | X | Y | ?
+SUBJECT_ID | NUMBER(7) | N | ?
+ICUSTAY_ID | NUMBER(7) | N | ?
+ICUSTAY_DAY | NUMBER(7) | N | ?
+AGE_SCORE | NUMBER | N | ?
+BUN_SCORE | NUMBER | N | ?
+GCS_SCORE | NUMBER | N | ?
+GLUCOSE_SCORE | NUMBER | N | ?
+HCT_SCORE | NUMBER | N | ?
+HR_SCORE | NUMBER | N | ?
+POTASSIUM_SCORE | NUMBER | N | ?
+SODIUM_SCORE | NUMBER | N | ?
+RR_SCORE | NUMBER | N | ?
+SYSABP_SCORE | NUMBER | N | ?
+TEMPERATURE_SCORE | NUMBER | N | ?
+URINE_SCORE | NUMBER | N | ?
+WBC_SCORE | NUMBER | N | ?
+HCO3_SCORE | NUMBER | N | ?
+SAPSI_SCORE | NUMBER | N | ?
+LCP_DAILY_SAPSIDATAID | NUMBER | Y | Unique row identifier
+

@@ -10,10 +10,10 @@ order: 22
 
 Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
-X | X | X | ?
-X | X | X | ?
-X | X | X | ?
-X | X | X | ?
-X | X | X | ?
-X | X | X | ?
-X | X | Y | ?
+SUBJECT_ID | NUMBER(7) | X | ?
+HADM_ID | NUMBER(7) | X | ?
+ICUSTAY_ID | NUMBER(7) | X | ?
+SEQ | NUMBER | X | ?
+STARTTIME | X | X | ?
+ENDTIME | X | X | ?
+LCP_VENTILATIONDATAID | NUMBER | Y | ?
