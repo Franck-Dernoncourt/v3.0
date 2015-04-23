@@ -12,7 +12,7 @@ The ```CPTEVENTS``` table is new to v3.0 of the MIMIC-II database.
 
 Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
-```SUBJECT_ID``` | NUMBER(7)  | ?  | Foreign key.
-```HADM_ID``` | NUMBER(7) | ?  | Foreign key.
-```CPT_CD``` | VARCHAR2(8)  | ?  | ?
-```CPTEVENTSDATAID``` | NUMBER  | ?  | Unique row identifier
+```SUBJECT_ID``` | NUMBER(7)  | Y  | Foreign key.
+```HADM_ID``` | NUMBER(7) | Y  | Foreign key.
+```CPT_CD``` | VARCHAR2(8)  | Y  | ?
+```CPTEVENTSDATAID``` | NUMBER  | Y  | Unique row identifier
