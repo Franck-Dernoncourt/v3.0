@@ -10,8 +10,8 @@ order: 2
 
 The source data for the ```ADMISSIONS``` table comes from the BIDMC
 admission/discharge/transfer data set, which included hospital
-admissions and discharges for all patients from 01/02/2001 to
-10/31/2012.
+admissions and discharges for all patients from 2 January 2001 to
+31 October 2012.
 
 The ```ADMISSIONS``` table in MIMIC2V26 has a date range of 3 April 2001 to
 16 September 2008. As mentioned earlier, the date range for new patient

@@ -14,19 +14,19 @@ about 196 million rows of data; in version 3.0, the row count of the
 ```CHARTEVENTS``` table is 234 million.
 
 One change we made to the ```CHARTEVENTS``` table in v3.0 is that we renamed
-‘```CHARTTIME```’ column to ‘```TIME```’ and ‘```REALTIME```’ column to ‘```VALIDATIONTIME```’. The new names were introduced to avoid confusion often associated with the ‘```CHARTTIME```’ and ‘```REALTIME```’ columns in v2.6. The new names in v3.0 should be easier to understand: ‘```TIME```’ refers to the actual time the measurements were taken, and ‘```VALIDATIONTIME```’ refers to the time when the values of the measurements were recorded.
+```CHARTTIME``` column to ```TIME``` and ```REALTIME``` column to ```VALIDATIONTIME```. The new names were introduced to avoid confusion often associated with the ```CHARTTIME``` and ```REALTIME``` columns in v2.6. The new names in v3.0 should be easier to understand: ```TIME``` refers to the actual time the measurements were taken, and ```VALIDATIONTIME``` refers to the time when the values of the measurements were recorded.
 
 For the new data coming from MetaVision, the event time is recorded as
-‘```TIME```’ and followed by the ‘```VALIDATION```’ time; we adapted the naming
+```TIME``` and followed by the ```VALIDATION``` time; we adapted the naming
 conventions of the new data source. Another new column from the
-MetaVision database is called ‘```COMMENTS```’, which contains units of
+MetaVision database is called ```COMMENTS```, which contains units of
 measure and the normal range of a measurement. This column can be very
 useful to users.
 
-Please note that there is no ‘```VALUE2```’ for the new data coming from
+Please note that there is no ```VALUE2``` for the new data coming from
 MetaVision. One good example is the recording of blood pressure:
 
-In MIMIC2V26, the ```itemid=51``` (LABEL= ‘Arterial BP’) included ‘```VALUE1```’ and ‘```VALUE2```’ for systolic and diastolic blood pressures. For new patients in MIMIC2V30, there are two ```ITEMIDs``` for blood pressure measurements: for systolic blood pressure, the ```ITEMID=220179```, and for diastolic blood pressure, ```ITEMID=220180```.
+In MIMIC2V26, the ```itemid=51``` (LABEL= ‘Arterial BP’) included ```VALUE1``` and ```VALUE2``` for systolic and diastolic blood pressures. For new patients in MIMIC2V30, there are two ```ITEMIDs``` for blood pressure measurements: for systolic blood pressure, the ```ITEMID=220179```, and for diastolic blood pressure, ```ITEMID=220180```.
 
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
