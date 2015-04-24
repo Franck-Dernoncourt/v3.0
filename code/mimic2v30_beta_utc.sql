@@ -11,9 +11,9 @@ Must run from mimic2v30b
 Recreating mimic2v30 with new updates
 
 */
-/***************    addiditves  ********************/
+/***************    additives  ********************/
 
--- conversin of time zones
+--conversion of time zones
 --drop table mimic2v30b_utc.additives;
 --create table mimic2v30b_utc.additives as
 select 
@@ -40,17 +40,36 @@ SUBJECT_ID
 ,ADDITIVESDATAID
 from mimic2v30b.additives;
 
-
-
 /***************    admissions  ********************/
 
-create table mimic2v30b_utc.admissions as
+/* create table mimic2v30b_utc.admissions as
 select * from mimic2v30b.admissions;
 
-update mimic2v30b_utc.admissions a set ADMIT_TIME=(select cast(ADMIT_TIME AT TIME ZONE 'UTC' as timestamp) as ADMIT_TIME from mimic2v30b_utc.admissions b where a.ADMISSIONSDATAID=b.ADMISSIONSDATAID) where ADMIT_TIME is not null;
+update mimic2v30b_utc.admissions a 
+set ADMIT_TIME=
+(select cast(ADMIT_TIME AT TIME ZONE 'UTC' as timestamp) as ADMIT_TIME 
+from mimic2v30b_utc.admissions b where a.ADMISSIONSDATAID=b.ADMISSIONSDATAID) 
+where ADMIT_TIME is not null;
 
 rollback;
-commit;
+commit; */
+
+--conversion of time zones
+--drop table mimic2v30b_utc.admissions;
+--create table mimic2v30b_utc.admissions as
+select
+HADM_ID,
+SUBJECT_ID,
+ADMIT_DT,
+cast(ADMIT_TIME AT TIME ZONE 'UTC' as timestamp) as ADMIT_TIME,
+DISCH_DT,
+cast(DISCH_TIME AT TIME ZONE 'UTC' as timestamp) as DISCH_TIME,
+ADM_DIAGNOSIS,
+FIRST_SERVICE,
+LAST_SERVICE,
+ADMISSIONSDATAID
+from mimic2v30b.admissions;
+
 
 /***************    censusevents  ********************/
 
