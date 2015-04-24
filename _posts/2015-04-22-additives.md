@@ -45,7 +45,7 @@ Column name | Data Type | New Column  | Remarks
 ```IOITEMVALUE``` | NUMBER | N | Called ‘SOLVOLUME’ in v2.6
 ```IOITEMUOM``` | NVARCHAR2(101) | N | Called ‘SOLUNITS’ in v2.6
 ```SOURCE_FLG``` | VARCHAR2(10) | N | Source of data (v2.6 or METAVISION)
-```ADDITIVESDATAID``` | NUMBER | N | Unique row Identifier
+```ADDITIVESDATAID``` | NUMBER | N | Unique row identifier
 
 *Table: Description of the Columns in the ADDITIVES table*
 

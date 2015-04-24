@@ -15,8 +15,8 @@ the ```PATIENTTRACKING``` table in the MetaVision database.
 Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
 ```CENSUS_ID``` | NUMBER | N | Primary key
-```SUBJECT_ID``` | NUMBER | N | Foreign Key – referring to ```D_PATIENTS``` table
-```ICUSTAY_ID``` | NUMBER(7) | N | Foreign Key – referring to ```ICUEVENTS``` table
+```SUBJECT_ID``` | NUMBER | N | Foreign key, referring to ```D_PATIENTS``` table
+```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUEVENTS``` table
 ```INTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | ICU admission time
 ```OUTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | ICU discharge time
 ```CUID``` | NUMBER(7) | N | Foreign key – referring to ```D_CAREUNITS``` table

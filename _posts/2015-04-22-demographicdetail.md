@@ -29,7 +29,7 @@ Column name | Data type | New Column | Remarks
 ```ADMISSION_TYPE_DESCR``` | VARCHAR2(50) | N | Description of the admission type
 ```ADMISSION_SOURCE_ITEMID``` | NUMBER(7) | N | The ID of the admission source
 ```ADMISSION_SOURCE_DESCR``` | VARCHAR2(50) | N | Description of the admission source
-```DEMOGRAPHIC_DETAILDATAID``` | NUMBER(7) | Y | Unique row Identifier
+```DEMOGRAPHIC_DETAILDATAID``` | NUMBER(7) | Y | Unique row identifier
 
 *Table : Description of the columns in ```Demographic_Detail``` table*
 

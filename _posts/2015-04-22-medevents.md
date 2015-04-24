@@ -42,7 +42,7 @@ Column name | Data Type | New Column  | Remarks
 ```CGID``` | NUMBER | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CUID``` | NUMBER | N | Foreign Key – referring to ```D_CAREUNITS``` table
 ```STOPPED``` | VARCHAR2(20) | N | Medication stopped
-```MEDEVENTSDATAID``` | NUMBER | Y | Unique row Identifier
+```MEDEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
 *Table: Description of the columns in the ```MEDEVENTS``` table*
 

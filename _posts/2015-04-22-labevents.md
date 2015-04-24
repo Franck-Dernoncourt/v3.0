@@ -38,6 +38,6 @@ Column name | Data Type | New Column  | Remarks
 ```FLUID``` | VARCHAR2(40) | Y | Type of fluid sample.
 ```CATEGORY``` | VARCHAR2(20) | Y | Category of the lab event
 ```LOINC_CODE``` | VARCHAR2(15) | Y | LOINC code for the lab event
-```LABEVENTSDATAID``` | NUMBER | Y | Unique row Identifier
+```LABEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
 *Table: Description of the columns in the ```LABEVENTS``` table*

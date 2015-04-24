@@ -54,7 +54,7 @@ Column name | Data Type | New Column  | Remarks
 ```TEXT``` | CLOB | N | Main body of the note
 ```EXAM_NAME``` | VARCHAR2(100) | N | Name of the examination
 ```PATIENT_INFO``` | VARCHAR2(4000) | N | Patient information
-```NOTEEVENTSDATAID``` | NUMBER | Y | Unique row Identifier
+```NOTEEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
 *Table: Description of the Columns in the ```NOTEEVENTS``` table*
 

@@ -23,6 +23,6 @@ Column name | Data type | New Column | Remarks
 ```LOS``` | NUMBER | N | ICU length of stay in minutes
 ```FIRST_CAREUNIT``` | NUMBER | N | First care unit
 ```LAST_CAREUNIT``` | NUMBER | N | Last care unit
-```ADMISSIONSDATAID``` | NUMBER | Y | Unique row Identifier
+```ADMISSIONSDATAID``` | NUMBER | Y | Unique row identifier
 
 *Table: Description of the columns in the ICUStayevents table*

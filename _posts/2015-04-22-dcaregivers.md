@@ -29,7 +29,7 @@ Column name | Data type | New Column | Remarks
 ```LABEL``` | VARCHAR2(6) | N | Title of Care Giver
 ```DESCRIPTION``` | NVARCHAR2(30) | Y | More detailed description of care giver
 ```CGID_STATUS``` | VARCHAR2(1) | Y | ‘A’ indicates an active ```CGID```, ‘M’ indicates a merged CGID.
-```D_CAREGIVERSDATAID``` | NUMBER(38) | Y | Unique row Identifier
+```D_CAREGIVERSDATAID``` | NUMBER(38) | Y | Unique row identifier
 
 *Table: Description of the columns in the ```D_CAREGIVERS``` table*
 

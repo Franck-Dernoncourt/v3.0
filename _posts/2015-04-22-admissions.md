@@ -32,7 +32,7 @@ Some changes to the ```ADMISSIONS``` table in v3.0 are as follows:
 Column name | Data type | New Column | Remark
 --- | --- | --- | ---
 ```HADM_ID ``` | NUMBER| N | Primary Key
-```SUBJECT_ID``` | NUMBER | N | Foreign Key – referring to ```D_PATIENTS``` table
+```SUBJECT_ID``` | NUMBER | N | Foreign Key, referring to ```D_PATIENTS``` table
 ```ADMIT_DT``` | DATE | N | Admission Date
 ```ADMIT_TIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Detailed admission time for new patients
 ```DISCH_DT``` | DATE | N | Discharge date
@@ -40,7 +40,7 @@ Column name | Data type | New Column | Remark
 ```ADM_DIAGNOSIS``` | VARCHAR2(250) | Y | Diagnosis on admission
 ```FIRST_SERVICE``` | VARCHAR2(4) | Y | First service unit
 ```LAST_SERVICE``` | VARCHAR2(4) | Y | Last service unit
-```ADMISSIONSDATAID``` | NUMBER(38) | Y | Unique row Identifier
+```ADMISSIONSDATAID``` | NUMBER(38) | Y | Unique row identifier
 
 *Table: Description of the columns in the ```ADMISSIONS``` table*
 

@@ -15,7 +15,7 @@ Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
 ```CUID``` | NUMBER | N | Care unit ID
 ```LABEL``` | VARCHAR2(20) | N | Title of Care Giver
-```D_CAREUNITSDATAID``` | NUMBER(38) | Y | Unique row Identifier
+```D_CAREUNITSDATAID``` | NUMBER(38) | Y | Unique row identifier
 
 *Table: Description of the columns in the ```D_CAREUNITS``` table*
 

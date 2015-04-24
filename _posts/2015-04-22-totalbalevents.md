@@ -45,6 +45,6 @@ Column name | Data Type | New Column  | Remarks
 ```APPROX``` | VARCHAR2(100) | N | Is the measurement an approximation?
 ```RESET``` | NUMBER | N | Reset the balance
 ```STOPPED``` | VARCHAR2(20) | N | Stopped recording the balance
-```TOTALBALEVENTDATAID``` | NUMBER | Y | Unique row Identifier
+```TOTALBALEVENTDATAID``` | NUMBER | Y | Unique row identifier
 
 *Table: Description of the columns in the TOTALBALEVENTS table*
