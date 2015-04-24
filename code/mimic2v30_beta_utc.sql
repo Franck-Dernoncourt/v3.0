@@ -212,6 +212,52 @@ from mimic2v30b.PROCEDUREEVENTS;
 
 /***************    TOTALBALEVENTS  ********************/
 --- Not executed yet
+
+with temp as
+(select distinct
+a.subject_id
+, a.icustay_id
+--, a.charttime
+--, b.charttime
+, b.TOTALBALEVENTSDATAID
+from MIMIC2V30B.totalbalevents a
+join MIMIC2V30B.totalbalevents b 
+  on a.subject_id=b.subject_id 
+  and a.cumitemid=b.cumitemid 
+  and a.icustay_id is not null
+  and b.icustay_id is null
+  and b.charttime <= a.charttime+1
+)
+
+, totalbalevents_new as
+(select
+a.SUBJECT_ID
+,case  when a.ICUSTAY_ID is null then b.ICUSTAY_ID else a.ICUSTAY_ID end as ICUSTAY_ID
+,a.CHARTTIME
+,a.ELEMID
+,a.REALTIME
+,a.CGID
+,a.CUID
+,a.ITEMID
+,a.LABEL
+,a.VOLUME
+,a.CUMITEMID
+,a.CUMLABEL
+,a.CUMVOLUME
+,a.UOM
+,a.ACCUMPERIOD
+,a.APPROX
+,a.RESET
+,a.STOPPED
+,a.TOTALBALEVENTSDATAID
+from MIMIC2V30B.totalbalevents a
+left join temp b on a.TOTALBALEVENTSDATAID=b.TOTALBALEVENTSDATAID
+)
+
+--select count(*) from totalbalevents_new where icustay_id is null;
+select * from totalbalevents_new;
+
+
 create table mimic2v30b_utc.TOTALBALEVENTS as
 select 
 SUBJECT_ID
