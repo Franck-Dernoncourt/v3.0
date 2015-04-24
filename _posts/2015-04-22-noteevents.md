@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Notevents"
+title: "Noteevents"
 category: dat
 date: 2015-04-22 22:45:11
 order: 25
@@ -27,10 +27,10 @@ Categories of Notes in v3.0 | Categories of Notes in v2.6
 The Nursing/Other category contains the nursing and respiratory
 therapist notes collected (2008 or earlier) from the CareVue system.
 Provider notes collected from the MetaVision are under the
-PROVIDER\_NOTE category and include notes by physicians, nurses,
+```PROVIDER_NOTE``` category and include notes by physicians, nurses,
 therapists and others. The table structure of ```NOTEEVENTS``` did not change
 between v2.6 and v3.0. However, the ```CHARTTIME``` of ```DISCHARGE_SUMMARY```
-notes used ‘DISCHARGE\_TIME’ in v3.0 while the ```ADMISSION_TIME``` was
+notes used ```DISCHARGE_TIME``` in v3.0 while the ```ADMISSION_TIME``` was
 used in v2.6.
 
 Note: Some entries in the ```NOTEEVENTS``` table contain empty text due to the
