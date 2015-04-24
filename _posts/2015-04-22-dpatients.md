@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "D_patients"
+title: "D_PATIENTS"
 category: dat
 date: 2015-04-22 22:45:10
 order: 9

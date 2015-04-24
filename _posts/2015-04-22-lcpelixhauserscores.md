@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Lcp_elixhauser_scores"
+title: "LCP_ELIXHAUSER_SCORES"
 category: dat
 date: 2015-04-22 22:45:11
 order: 21

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Lcp_daily_sapsi"
+title: "LCP_DAILY_SAPSI"
 category: dat
 date: 2015-04-22 22:45:10
 order: 19

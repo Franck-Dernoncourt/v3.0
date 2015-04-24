@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Admissions"
+title: "ADMISSIONS"
 category: dat
 date: 2015-04-22 12:48:04
 order: 2

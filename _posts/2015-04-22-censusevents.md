@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Censusevents"
+title: "CENSUSEVENTS"
 category: dat
 date: 2015-04-22 22:45:09
 order: 3

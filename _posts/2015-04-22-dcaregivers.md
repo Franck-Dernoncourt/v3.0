@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "D_caregivers"
+title: "D_CAREGIVERS"
 category: dat
 date: 2015-04-22 22:45:09
 order: 6

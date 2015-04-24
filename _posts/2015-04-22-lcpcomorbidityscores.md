@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Lcp_comorbidity_scores"
+title: "LCP_COMORBIDITY_SCORES"
 category: dat
 date: 2015-04-22 22:45:10
 order: 18

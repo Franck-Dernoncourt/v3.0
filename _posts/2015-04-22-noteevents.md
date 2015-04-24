@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Noteevents"
+title: "NOTEEVENTS"
 category: dat
 date: 2015-04-22 22:45:11
 order: 25

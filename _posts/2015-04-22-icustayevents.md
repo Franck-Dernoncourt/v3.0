@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Icustayevents"
+title: "ICUSTAYEVENTS"
 category: dat
 date: 2015-04-22 22:45:10
 order: 15
