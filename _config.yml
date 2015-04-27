@@ -15,7 +15,7 @@ google_analytics_id: ''
 navigation: 2
 
 # URL to source code, used in _includes/footer.html
-codeurl: 'http://mimic.physionet.org/'
+codeurl: 'http://mimic2.github.io/v3.0/'
 
 # Default categories (in order) to appear in the navigation
 sections: [
