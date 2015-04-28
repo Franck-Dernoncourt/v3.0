@@ -7,9 +7,7 @@ date: 2015-04-23 13:32:16
 
 #### How to contribute
 
-Providing support for the MIMIC-II database is an ongoing process. Our resources are limited, so please help us to update and improve documentation.
-
-These guidelines are hosted on GitHub, making it straightforward for you to raise issues and suggest changes.
+Providing support for the MIMIC-II database is an ongoing process. Our resources are limited, so please help us to update and improve documentation.These guidelines are hosted on GitHub, making it straightforward for you to raise issues and suggest changes.
 
 #### Raising an issue
 
