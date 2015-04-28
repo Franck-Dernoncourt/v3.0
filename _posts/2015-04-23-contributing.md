@@ -34,7 +34,7 @@ When content is hosted on a ```gh-pages``` branch on GitHub, it is automatically
 
 Each page of the website is generated from content in the [```\_posts```](https://github.com/mimic2/v3.0/tree/gh-pages/_posts) directory. Editing the documents in this directory will automatically be reflected in the corresponding webpage.
 
-For example, editing ```Additives.md```](https://github.com/mimic2/v3.0/blob/gh-pages/_posts/2015-04-22-additives.md) will automatically update the [Additives webpage](http://mimic2.github.io/v3.0/dat/additives.html).
+For example, editing [```Additives.md```](https://github.com/mimic2/v3.0/blob/gh-pages/_posts/2015-04-22-additives.md) will automatically update the [Additives webpage](http://mimic2.github.io/v3.0/dat/additives.html).
 
 
 
