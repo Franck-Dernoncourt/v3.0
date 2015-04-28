@@ -28,7 +28,7 @@ We encourage you to directly contribute to the guidelines. To do this, please:
 
 #### Editing the documentation
 
-When content is hosted on a ```gh-pages``` branch on GitHub, it is automatically rendered as a website with [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/).
+Content hosted on a ```gh-pages``` branch on GitHub is automatically rendered as a website with [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/).
 
 Each page of the website is generated from content in the [```\_posts```](https://github.com/mimic2/v3.0/tree/gh-pages/_posts) directory. Editing the content in [```\_posts```](https://github.com/mimic2/v3.0/tree/gh-pages/_posts) will be reflected in the corresponding webpage automatically.
 
