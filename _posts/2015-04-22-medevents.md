@@ -30,11 +30,11 @@ Column name | Data Type | New Column  | Remarks
 ```LABEL``` | VARCHAR2(100) | Y | Included for easy word-based searches
 ```SOLITEMID``` | NUMBER(7) | N | ITEMID of the solution used in the medication event
 ```SOLITEMLABEL``` | VARCHAR2(100) | Y | Label of the solution used in the medication event. Included for easy word-based searches
-```CHARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Used for old data, ```null``` for new data
+```CHARTTIME``` | TIMESTAMP(6) | N | Used for old data, ```null``` for new data
 ```ELEMID``` | NUMBER(7) | N | Element ID for the event
-```REALTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Used for old data, ```null``` for new data
-```STARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Used for new data, ```null``` for old data
-```ENDTIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Used for new data, ```null``` for old data
+```REALTIME``` | TIMESTAMP(6) | N | Used for old data, ```null``` for new data
+```STARTTIME``` | TIMESTAMP(6) | Y | Used for new data, ```null``` for old data
+```ENDTIME``` | TIMESTAMP(6) | Y | Used for new data, ```null``` for old data
 ```VALUE``` | NUMBER | N | Dosage of the medication event. Called ‘```DOSE```’ in v2.6
 ```UOM``` | VARCHAR2(100) | Y | Units of measurement of the medication event. Called ‘```DOSEUOM```’ in v2.6
 ```SOLITEMVALUE``` | NUMBER | N | Volume of solution used in the medication event. Called ‘SOLVOLUME’ in v2.6

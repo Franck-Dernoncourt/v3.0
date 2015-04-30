@@ -29,7 +29,7 @@ Column name | Data Type | New Column  | Remarks
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | N | Foreign key, referring to ```ADMISSIONS```
 ```ITEMID``` | NUMBER(7) | N | Foreign key, referring to ```D_ITEMS```
-```CHARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Time of lab event.
+```CHARTTIME``` | TIMESTAMP(6) | N | Time of lab event.
 ```TEST_NAME``` | VARCHAR2(50) | Y | Included for easy word-based searches
 ```VALUE``` | VARCHAR2(200) | N | The result value of the lab event
 ```VALUENUM``` | NUMBER | N | The numeric representation of the laboratory test if the result was numeric

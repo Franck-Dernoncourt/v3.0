@@ -34,9 +34,9 @@ Column name | Data type | New Column | Remark
 ```HADM_ID ``` | NUMBER| N | Primary Key
 ```SUBJECT_ID``` | NUMBER | N | Foreign Key, referring to ```D_PATIENTS``` table
 ```ADMIT_DT``` | DATE | N | Admission Date
-```ADMIT_TIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Detailed admission time for new patients
+```ADMIT_TIME``` | TIMESTAMP(6) | Y | Detailed admission time for new patients
 ```DISCH_DT``` | DATE | N | Discharge date
-```DISCH_TIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Detailed discharge time for new patients
+```DISCH_TIME``` | TIMESTAMP(6) | Y | Detailed discharge time for new patients
 ```ADM_DIAGNOSIS``` | VARCHAR2(250) | Y | Diagnosis on admission
 ```FIRST_SERVICE``` | VARCHAR2(4) | Y | First service unit
 ```LAST_SERVICE``` | VARCHAR2(4) | Y | Last service unit

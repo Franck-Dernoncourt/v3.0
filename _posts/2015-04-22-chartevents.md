@@ -35,9 +35,9 @@ Column name | Data Type | New Column  | Remarks
 ```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUSTAYEVENTS```
 ```ITEMID``` | NUMBER(7) | N | Foreign key, referring to ```D_ITEMS```
 ```LABEL``` | VARCHAR2(100) | Y | Included for easy word-based searches
-```TIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Called ‘```CHARTTIME```’ in v2.6
+```TIME``` | TIMESTAMP(6) | N | Called ‘```CHARTTIME```’ in v2.6
 ```ELEMID``` | NUMBER(7) | N | The ELEMENTID of the chart event
-```VALIDATIONTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Called ‘```REALTIME```’ in v2.6
+```VALIDATIONTIME``` | TIMESTAMP(6) | N | Called ‘```REALTIME```’ in v2.6
 ```CGID``` | NUMBER(7) | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CUID``` | NUMBER(7) | N | Foreign key, referring to ```D_UNITS```
 ```VALUE1``` | VARCHAR2(110) | N | Can be numeric or alphabetic values

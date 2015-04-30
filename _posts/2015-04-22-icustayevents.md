@@ -18,8 +18,8 @@ Column name | Data type | New Column | Remarks
 --- | --- | --- | ---
 ```ICUSTAY_ID``` | NUMBER(7) | N | Primary key
 ```SUBJECT_ID``` | NUMBER | N | Foreign Key – referring to ```D_PATIENTS``` table
-```INTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | ICU admission time
-```OUTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | ICU discharge time
+```INTIME``` | TIMESTAMP(6) | N | ICU admission time
+```OUTTIME``` | TIMESTAMP(6) | N | ICU discharge time
 ```LOS``` | NUMBER | N | ICU length of stay in minutes
 ```FIRST_CAREUNIT``` | NUMBER | N | First care unit
 ```LAST_CAREUNIT``` | NUMBER | N | Last care unit

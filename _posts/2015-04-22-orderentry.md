@@ -23,7 +23,7 @@ Column name | Data Type | Remarks
 ```SUBJECT_ID``` | NUMBER(7) | Foreign key, referring to ```D_PATIENTS```
 ```ICUSTAY_ID``` | NUMBER(7) | Foreign key, referring to ```ICUSTAYEVENTS```
 ```CGID``` | NUMBER | Foreign key, referring to ```D_CAREGIVERS```
-```ISSUEDATE``` | TIMESTAMP(6) WITH TIME ZONE | Issue date for the order
+```ISSUEDATE``` | TIMESTAMP(6) | Issue date for the order
 ```ORDERCATEGORY``` | VARCHAR2(84) | Category for the order
 ```PATIENTWEIGHT``` | NUMBER(12) | Weight of the patient in grams
 ```ISOPENBAG``` | NUMBER(1) | Unknown

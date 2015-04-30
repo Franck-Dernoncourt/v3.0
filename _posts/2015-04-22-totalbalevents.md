@@ -29,9 +29,9 @@ Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUSTAYEVENTS```
-```CHARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Time of total balance event.
+```CHARTTIME``` | TIMESTAMP(6) | N | Time of total balance event.
 ```ELEMID``` | NUMBER | N | The element ID of the total balance
-```REALTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Time of inputting total balance event.
+```REALTIME``` | TIMESTAMP(6) | N | Time of inputting total balance event.
 ```CGID``` | NUMBER | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CUID``` | NUMBER | N | Foreign key, referring to ```D_CAREUNITS```
 ```ITEMID``` | NUMBER | N | Foreign key, referring to ```D_ITEMS```

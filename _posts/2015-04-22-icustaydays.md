@@ -15,8 +15,8 @@ Column name | Data type | New Column | Remarks
 ```ICUSTAY_ID``` | NUMBER(7) | N | Primary key
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign Key – referring to ```D_PATIENTS``` table
 ```SEQ``` | NUMBER(7) | N | Day number of the ICU stay
-```BEGINTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Start time of the ICU stay day
-```ENDTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | End time of the ICU stay day
+```BEGINTIME``` | TIMESTAMP(6) | N | Start time of the ICU stay day
+```ENDTIME``` | TIMESTAMP(6) | N | End time of the ICU stay day
 ```FIRST_DAY_FLG``` | CHAR(1) | N | The first day of the ICU stay (Y/N)
 ```LAST_DAY_FLG``` | CHAR(1) | N | The last day of the ICU stay (Y/N)
 ```ICUSTAYDAYSDATAID``` | NUMBER | Y | Unique row identifier

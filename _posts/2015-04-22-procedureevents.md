@@ -30,8 +30,8 @@ Column name | Data Type | New Column  | Remarks
 ```ITEMID``` | NUMBER(7) | N | Foreign key, referring to ```D_ITEMS```
 ```LABEL``` | VARCHAR2(100) | Y | Label of the procedure event, included for easy word-based searches
 ```PROC_DT``` | DATE | N | The date on which the procedure event occurred
-```STARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Timestamp to accompany ```PROC_DT```. Used for new data, null for old data
-```ENDTIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Timestamp to accompany ```PROC_DT```. Used for new data, null for old data
+```STARTTIME``` | TIMESTAMP(6) | Y | Timestamp to accompany ```PROC_DT```. Used for new data, null for old data
+```ENDTIME``` | TIMESTAMP(6) | Y | Timestamp to accompany ```PROC_DT```. Used for new data, null for old data
 ```CGID``` | NUMBER(7) | Y | Foreign key, referring to ```D_CAREGIVERS```
 ```PROCEDUREEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 

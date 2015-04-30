@@ -34,9 +34,9 @@ Column name | Data Type | New Column  | Remarks
 ```LABEL``` | VARCHAR2(100) | Y | Included for easy word-based searches
 ```IOITEMID``` | NUMBER(7) | N | Foreign key, referring to ```IOEVENTS```
 ```IOITEMLABEL``` | VARCHAR2(100) | Y | Label for the IO item, included for easy word-based searches
-```CHARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | N | Used for old data, null for new data
-```STARTTIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Used for new data, null for old data
-```ENDTIME``` | TIMESTAMP(6) WITH TIME ZONE | Y | Used for new data, null for old data
+```CHARTTIME``` | TIMESTAMP(6) | N | Used for old data, null for new data
+```STARTTIME``` | TIMESTAMP(6) | Y | Used for new data, null for old data
+```ENDTIME``` | TIMESTAMP(6) | Y | Used for new data, null for old data
 ```ELEMID``` | NUMBER(7) | N | The ELEMID of a combined additive
 ```CGID``` | NUMBER | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CUID``` | NUMBER | N | Foreign Key – referring to ```D_CAREUNITS``` table
