@@ -23,8 +23,8 @@ Column name | Data type | New Column | Remarks
 ```ETHNICITY_DESCR``` | VARCHAR2(60) | N | Description of the ethnicity
 ```OVERALL_PAYOR_GROUP_ITEMID``` | NUMBER(7) | N | The itemid for the payor group
 ```OVERALL_PAYOR_GROUP_DESCR``` | VARCHAR2(50) | N | Description of the payor group
-```RELIGON_ITEMID``` | NUMBER(7) | N | The ID of the religon
-```RELIGON_DESCR``` | VARCHAR2(50) | N | Description of the religon
+```RELIGION_ITEMID``` | NUMBER(7) | N | The ID of the religion
+```RELIGION_DESCR``` | VARCHAR2(50) | N | Description of the religion
 ```ADMISSION_TYPE_ITEMID``` | NUMBER(7) | N | The ID of the admission type
 ```ADMISSION_TYPE_DESCR``` | VARCHAR2(50) | N | Description of the admission type
 ```ADMISSION_SOURCE_ITEMID``` | NUMBER(7) | N | The ID of the admission source
