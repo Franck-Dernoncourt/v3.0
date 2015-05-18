@@ -17,12 +17,8 @@ current lab tests. However, whenever possible, the old lab ITEMID was
 mapped and listed in the ```D_ITEMS``` table (```ORIGIN=’LAB’```) (see table 4). Also, we tried our best to map to the current LOINC codes as well.
 
 Like other facts (…events) tables in v3.0, we included related ITEMID
-descriptive columns like ‘```TESTNAME```’, ‘```FLUID```’, ‘```CATEGORY```’ and
-‘```LOINC_CODE```’, much easier for word-based searches.
-
-Please note that we collect all lab events for a patient independent of
-when they were done. Some lab events are from subsequent clinic visits,
-for example.
+descriptive columns like ```TESTNAME```, ```FLUID```, ```CATEGORY``` and
+```LOINC_CODE``` to facilitate word-based searches. Please note that we collect all lab events for a patient independent of when they were done. Some lab events are from subsequent clinic visits, for example.
 
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---

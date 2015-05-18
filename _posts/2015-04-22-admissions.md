@@ -8,26 +8,20 @@ order: 2
 
 ## ```ADMISSIONS``` table
 
-The source data for the ```ADMISSIONS``` table comes from the BIDMC
-admission/discharge/transfer data set, which included hospital
-admissions and discharges for all patients from 2 January 2001 to
+Source data for the ```ADMISSIONS``` table comes from the BIDMC
+admission/discharge/transfer dataset, which includes hospital
+admissions and discharges for all patients between 2 January 2001 and
 31 October 2012.
 
 The ```ADMISSIONS``` table in MIMIC2V26 has a date range of 3 April 2001 to
-16 September 2008. As mentioned earlier, the date range for new patient
-admissions from MetaVision database is 12 July 2007 - 25 September 2012. Therefore, some ICU patients in the MetaVision adult patients table have been
-included in the MIMIC2V26 database.
+16 September 2008. The date range for patient admissions in the MetaVision database is 12 July 2007 to 25 September 2012. Therefore, some patients in the MetaVision table were included in MIMIC2 v2.6.
 
-The data mapping and merging process between MIMIC-II v2.6 and the
-MetaVision Database started by filtering out new hospital admissions
-first; among the new hospital admissions, there are old patients and new
-patients. For old patients, we needed to map to the existing
-```SUBJECT_ID```; for new patients, we generated new ```SUBJECT_ID```s.
+Initial data mapping and merging between MIMIC-II v2.6 and the MetaVision Database involved filtering out new hospital admissions. Among the new hospital admissions, there were old patients and new patients. For old patients, we needed to map to the existing ```SUBJECT_ID```; for new patients, we generated new ```SUBJECT_ID```s.
 
-Some changes to the ```ADMISSIONS``` table in v3.0 are as follows:
+Changes to the ```ADMISSIONS``` table in v3.0 include:
 
-1.  For new admissions, the ```ADMIT_DT``` and ```DISCH_DT``` in the v3.0 ```ADMISSIONS``` table contain date and time information; data coming from MIMIC-II v2.6 only contains date information.
-2.  Three new columns were added to this table – ‘```ADM_DIAGNOSIS```’, ‘```FIRST_SERVICE_UNIT```’, ‘```LAST_SERVICE_UNIT```’
+- ```ADMIT_DT``` and ```DISCH_DT``` for new admissions include date and time, while data coming from MIMIC-II v2.6 includes only date.
+- Three new columns were added: ```ADM_DIAGNOSIS```, ```FIRST_SERVICE_UNIT```, and ```LAST_SERVICE_UNIT```
 
 Column name | Data type | New Column | Remark
 --- | --- | --- | ---

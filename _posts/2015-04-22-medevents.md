@@ -12,10 +12,7 @@ In version 3.0, a new table – ```ORDERENTRY```, which contains all medical
 treatment order information, is added to medication related tables.
 ```MEDEVENTS```, ```ADDITIVES``` and ```IOEVENTS``` now all contain ```ORDERID```, which is a foreign key referring to the ```ORDERENTRY``` table. 
 
-A key change is that all new medication records have ```START``` and ```END``` times, making it more straightforward to calculate the total amount of medication. Because of this, the ```A_MEDDURATIONS``` table is no longer needed. But users can still use that table in v2.6 for any checking and calculations for the old data.
-
-The following table lists the columns of ```MEDEVENTS```; new columns are
-noted.
+A key change is that all new medication records have ```START``` and ```END``` times, making it more straightforward to calculate the total amount of medication. Because of this, the ```A_MEDDURATIONS``` table is no longer needed. But users can still use that table in v2.6 for any checking and calculations for the old data. The following table lists the columns of ```MEDEVENTS```: 
 
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
