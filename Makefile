@@ -27,6 +27,7 @@ pdf:
 	$(INPUTDIR)/contributing.md \
 	$(INPUTDIR)/first-steps.md \
 	$(INPUTDIR)/installation.md \
+	$(INPUTDIR)/overview.md \
 	$(INPUTDIR)/additives.md \
 	$(INPUTDIR)/admissions.md \
 	$(INPUTDIR)/censusevents.md \
