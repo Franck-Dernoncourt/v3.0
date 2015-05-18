@@ -29,16 +29,16 @@ Column name | Data Type | New Column  | Remarks
 ```ITEMID``` | NUMBER(7) | N | Foreign key, referring to ```D_ITEMS```
 ```LABEL``` | VARCHAR2(100) | Y | Included for easy word-based searches
 ```SOLITEMID``` | NUMBER(7) | N | ITEMID of the solution used in the medication event
-```SOLITEMLABEL``` | VARCHAR2(100) | Y | Label of the solution used in the medication event. Included for easy word-based searches
+```SOLITEMLABEL``` | VARCHAR2(100) | Y | Label of the solution used in the medication event.
 ```CHARTTIME``` | TIMESTAMP(6) | N | Used for old data, ```null``` for new data
 ```ELEMID``` | NUMBER(7) | N | Element ID for the event
 ```REALTIME``` | TIMESTAMP(6) | N | Used for old data, ```null``` for new data
 ```STARTTIME``` | TIMESTAMP(6) | Y | Used for new data, ```null``` for old data
 ```ENDTIME``` | TIMESTAMP(6) | Y | Used for new data, ```null``` for old data
 ```VALUE``` | NUMBER | N | Dosage of the medication event. Called ‘```DOSE```’ in v2.6
-```UOM``` | VARCHAR2(100) | Y | Units of measurement of the medication event. Called ‘```DOSEUOM```’ in v2.6
-```SOLITEMVALUE``` | NUMBER | N | Volume of solution used in the medication event. Called ‘SOLVOLUME’ in v2.6
-```SOLITEMUOM``` | VARCHAR2(100) | N | Units of the volume of solution used in the medication event. Called ‘SOLUNITS’ in v2.6
+```UOM``` | VARCHAR2(100) | Y | Units of measurement of the medication event. (```DOSEUOM``` in v2.6).
+```SOLITEMVALUE``` | NUMBER | N | Volume of solution used in the medication event (```SOLVOLUME``` in v2.6).
+```SOLITEMUOM``` | VARCHAR2(100) | N | Units of the volume of solution used. (```SOLUNITS``` in v2.6)
 ```CGID``` | NUMBER | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CUID``` | NUMBER | N | Foreign Key – referring to ```D_CAREUNITS``` table
 ```STOPPED``` | VARCHAR2(20) | N | Medication stopped

@@ -27,12 +27,12 @@ In the old version (2.6), only patients who are alive and over 90 were
 shifted. This change is to minimize confusion for users who are
 interested in age related studies.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Primary key
 ```SEX``` | VARCHAR2(1) | N | Gender (M/F)
-```DOB``` | DATE | N | Date of birth of the patientcd 
-```DOD``` | DATE | N | Date of death of the patient. ```Null``` if alive as of February 2013 (the date of export of social security data)
+```DOB``` | DATE | N | Date of birth.
+```DOD``` | DATE | N | Date of death. ```Null``` if alive on Feb 2013 (the export date of social security data)
 ```HOSPITAL_EXPIRE_FLG``` | VARCHAR2(1) | N | Whether or not the patient died in the hospital
 ```ZIPCODE``` | VARCHAR2(5) | Y | First three digits of the patient's home zipcode
 ```D_PATIENTSDATAID``` | NUMBER(38) | Y | Unique row identifier

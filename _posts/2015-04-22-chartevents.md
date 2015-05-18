@@ -43,12 +43,12 @@ Column name | Data Type | New Column  | Remarks
 ```VALUE1``` | VARCHAR2(110) | N | Can be numeric or alphabetic values
 ```VALUE1NUM``` | NUMBER | N | Numeric values only
 ```VALUE1UOM``` | VARCHAR2(120) | N | Unit of measure for ```VALUE1```
-```COMMENTS``` | NCLOB | Y | New data from MetaVision, contains units and normal range of the measurements.
-```VALUE2``` | VARCHAR2(110) | N | For old data only, Can be numeric or alphabetic values
-```VALUE2NUM``` | NUMBER | N | For old data only, Numeric values only
-```VALUE2UOM``` | VARCHAR2(20) | N | For old data only, Unit of Measure for vlaue2
-```RESULTSTATUS``` | VARCHAR2(20) | N | For old data (v2.6) only
-```STOPPED``` | VARCHAR2(20) | N | For old data (v2.6) only
-```WARNING``` | NUMBER(1) | Y | For new data
-```ERROR``` | NUMBER(1) | Y | For new data
+```COMMENTS``` | NCLOB | Y | Includes range for 'normal' measurements (MetaVision only).
+```VALUE2``` | VARCHAR2(110) | N | For old data only. Numeric and alphabetic.
+```VALUE2NUM``` | NUMBER | N | For old data only. Numeric values only.
+```VALUE2UOM``` | VARCHAR2(20) | N | For old data only. Unit of Measure for value2.
+```RESULTSTATUS``` | VARCHAR2(20) | N | For old data (v2.6) only.
+```STOPPED``` | VARCHAR2(20) | N | For old data (v2.6) only.
+```WARNING``` | NUMBER(1) | Y | For new data.
+```ERROR``` | NUMBER(1) | Y | For new data.
 
