@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Overview"
+title: "Introduction"
 category: bac
 date: 2015-04-22 11:40:16
 order: 1
 ---
 
-# Overview
+# Introduction
 
 For the first time MIMIC-II contains data from two different source databases (CareVue and MetaVision). This new version of MIMIC-II maps and combines data from MIMIC2V26 (45 tables) and MetaVision (506 tables), as well as additional data sets from Beth Israel Deaconess Medical Center (23 tables) and Social Security datasets (2 tables).
 

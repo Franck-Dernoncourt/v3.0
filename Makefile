@@ -22,7 +22,7 @@ help:
 pdf:
 	pandoc $(STYLEDIR)/frontpage.md \
 	$(STYLEDIR)/table_of_contents.md \
-	$(INPUTDIR)/overview.md \
+	$(INPUTDIR)/introduction.md \
 	$(INPUTDIR)/whats-new.md \
 	$(INPUTDIR)/contributing.md \
 	$(INPUTDIR)/first-steps.md \

@@ -17,7 +17,7 @@ One change we made to the ```CHARTEVENTS``` table in v3.0 is that we renamed
 ```CHARTTIME``` column to ```TIME``` and ```REALTIME``` column to ```VALIDATIONTIME```. The new names were introduced to avoid confusion often associated with the ```CHARTTIME``` and ```REALTIME``` columns in v2.6. The new names in v3.0 should be easier to understand: ```TIME``` refers to the actual time the measurements were taken, and ```VALIDATIONTIME``` refers to the time when the values of the measurements were recorded.
 
 For the new data coming from MetaVision, the event time is recorded as
-```TIME``` and followed by the ```VALIDATION``` time; we adapted the naming
+```TIME``` and followed by the ```KEYINTIME```; we adapted the naming
 conventions of the new data source. Another new column from the
 MetaVision database is called ```COMMENTS```, which contains units of
 measure and the normal range of a measurement. This column can be very
@@ -37,7 +37,7 @@ Column name | Data Type | New Column  | Remarks
 ```LABEL``` | VARCHAR2(100) | Y | Included for easy word-based searches
 ```TIME``` | TIMESTAMP(6) | N | Called ‘```CHARTTIME```’ in v2.6
 ```ELEMID``` | NUMBER(7) | N | The ELEMENTID of the chart event
-```VALIDATIONTIME``` | TIMESTAMP(6) | N | Called ‘```REALTIME```’ in v2.6
+```KEYINTIME``` | TIMESTAMP(6) | N | Called ‘```REALTIME```’ in v2.6
 ```CGID``` | NUMBER(7) | N | Foreign key, referring to ```D_CAREGIVERS```
 ```CUID``` | NUMBER(7) | N | Foreign key, referring to ```D_UNITS```
 ```VALUE1``` | VARCHAR2(110) | N | Can be numeric or alphabetic values
