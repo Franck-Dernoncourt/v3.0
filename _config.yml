@@ -20,6 +20,7 @@ codeurl: 'http://mimic2.github.io/v3.0/'
 # Default categories (in order) to appear in the navigation
 sections: [
     ['bac', 'Background'],
+    ['ins', 'Accessing MIMIC'],
     ['dat', 'Database'],
 #    ['doc', 'Documentation'],
 #    ['tut', 'Tutorial'],
