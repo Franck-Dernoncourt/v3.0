@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:09
 order: 6
 ---
 
-#### ```D_CAREGIVERS``` table
+## ```D_CAREGIVERS``` table
 
 The Caregiver IDs (```CGID```) are stored in table ```D_CAREGIVERS```, which
 contains about 11,000 rows in version 2.6 and about 15,500 rows in

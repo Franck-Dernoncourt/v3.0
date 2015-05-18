@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:11
 order: 25
 ---
 
-#### ```NOTEEVENTS``` table
+## ```NOTEEVENTS``` table
 
 In version 3.0, we added three new types of notes in the ```NOTEEVENTS```
 table: ECG reports, Echo reports, and the physician notes from

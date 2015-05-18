@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:09
 order: 5
 ---
 
-#### ```CPTEVENTS``` table
+## ```CPTEVENTS``` table
 
 The ```CPTEVENTS``` table is new to v3.0 of the MIMIC-II database.
 

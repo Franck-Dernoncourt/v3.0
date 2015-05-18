@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 17
 ---
 
-#### ```LABEVENTS``` table
+## ```LABEVENTS``` table
 
 In v3.0, the ```LABEVENTS``` table was re-generated from the raw lab tests
 data set from BIDMC. As there have been additions of new lab tests over

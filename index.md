@@ -3,7 +3,7 @@ layout: default
 title: "Guidelines for the MIMIC-II database"
 ---
 
-### MIMIC-II research database
+## MIMIC-II research database
 
 The MIMIC-II research database (Multiparameter Intelligent Monitoring in Intensive Care) is notable for three factors: 
 

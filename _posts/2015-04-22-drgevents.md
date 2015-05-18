@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 12
 ---
 
-#### ```DRGEVENTS``` table
+## ```DRGEVENTS``` table
 
 Another table that contains diagnosis related data is the ```DRGEVENTS```
 table; we included descriptive columns for the ```ITEMID``` in the new

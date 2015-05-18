@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 14
 ---
 
-#### ```ICUSTAY_DAYS``` table
+## ```ICUSTAY_DAYS``` table
 
 The ```ICUSTAY_DAYS``` table is generated from the ```ICUSTAYEVENTS``` table; it basically listed the ```ICUSTAYEVENTS``` by days and marked the first and last day of ICUSTAY.
 

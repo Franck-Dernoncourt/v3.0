@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:09
 order: 1
 ---
 
-#### ```ADDITIVES``` table
+## ```ADDITIVES``` table
 
 In version 2.6, patient input/output (IO) data is recorded in the
 ```IOEVENTS```, ```D_IOITEMS```, ```DELIVERIES```, ```TOTALBALEVENTS``` and ```ADDITIVES``` tables.

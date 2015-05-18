@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:09
 order: 4
 ---
 
-#### ```CHARTEVENTS``` table
+## ```CHARTEVENTS``` table
 
 The ```CHARTEVENTS``` table is the largest table in the database and contains
 all bedside patient records. In version 2.6, the ```CHARTEVENTS``` table has

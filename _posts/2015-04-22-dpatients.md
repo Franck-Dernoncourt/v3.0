@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 9
 ---
 
-#### ```D_PATIENTS``` table
+## ```D_PATIENTS``` table
 
 The source table for new patients added to ```D_PATIENTS``` comes from the
 ```PATIENTS``` table in the MetaVision (for ICU Adult patients) database; the

@@ -6,7 +6,7 @@ date: 2015-05-18 11:28:16
 order: 2
 ---
 
-#### Installing the MIMIC-II Database
+## Installing the MIMIC-II Database
 
 Before working with MIMIC-II data, you will first need to complete the [application process](first-steps.html). Once this process is complete, you will be granted access to a [set of data files on PhysioNet](https://physionet.org/works/MIMICIIClinicalDatabase/) which can be used to reconstruct the database.
 

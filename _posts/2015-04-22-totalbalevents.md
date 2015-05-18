@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:12
 order: 29
 ---
 
-#### ```TOTALBALEVENTS``` table
+## ```TOTALBALEVENTS``` table
 
 In version 2.6, patient input/output (IO) data is recorded in the
 ```IOEVENTS```, ```D_IOITEMS```, ```DELIVERIES```, ```TOTALBALEVENTS``` and ```ADDITIVES``` tables.

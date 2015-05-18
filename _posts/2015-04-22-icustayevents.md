@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 15
 ---
 
-#### ```ICUSTAYEVENTS``` table
+## ```ICUSTAYEVENTS``` table
 
 The ```ICUSTAYEVENTS``` table is generated from the ```CENSUSEVENTS``` table. An ```ICUSTAY_ID``` is generated to mark any new ICUSTAY events for patients. In many cases, patients can be in and out of the ICU care units multiple
 times during one hospital admission. For these cases, we set the

@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 18
 ---
 
-#### ```LCP_COMORBIDITY_SCORES``` table
+## ```LCP_COMORBIDITY_SCORES``` table
 
 Column name | Data type | New Column | Remarks
 --- | --- | --- | ---

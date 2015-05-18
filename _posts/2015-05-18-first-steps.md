@@ -6,7 +6,7 @@ date: 2015-05-18 11:27:59
 order: 1
 ---
 
-#### Accessing the clinical database
+# Accessing the clinical database
 
 Access to the MIMIC-II Clinical Database requires a PhysioNetWorks account, so begin by [creating a PhysioNetWorks account](https://physionet.org/pnw/login) if you have not already done so.
 

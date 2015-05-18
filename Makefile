@@ -20,11 +20,43 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc $(INPUTDIR)/*.md \
+	pandoc $(STYLEDIR)/frontpage.md \
+	$(INPUTDIR)/overview.md \
+	$(INPUTDIR)/whats-new.md \
+	$(INPUTDIR)/contributing.md \
+	$(INPUTDIR)/first-steps.md \
+	$(INPUTDIR)/installation.md \
+	$(INPUTDIR)/additives.md \
+	$(INPUTDIR)/admissions.md \
+	$(INPUTDIR)/censusevents.md \
+	$(INPUTDIR)/chartevents.md \
+	$(INPUTDIR)/cptevents.md \
+	$(INPUTDIR)/dcaregivers.md \
+	$(INPUTDIR)/dcareunits.md \
+	$(INPUTDIR)/ditems.md \
+	$(INPUTDIR)/dpatients.md \
+	$(INPUTDIR)/dunits.md \
+	$(INPUTDIR)/demographicdetail.md \
+	$(INPUTDIR)/drgevents.md \
+	$(INPUTDIR)/icd9.md \
+	$(INPUTDIR)/icustayevents.md \
+	$(INPUTDIR)/ioevents.md \
+	$(INPUTDIR)/labevents.md \
+	$(INPUTDIR)/lcpcomorbidityscores.md \
+	$(INPUTDIR)/lcpdailysapsi.md \
+	$(INPUTDIR)/lcpdailysofa.md \
+	$(INPUTDIR)/lcpelixhauserscores.md \
+	$(INPUTDIR)/lcpventilation.md \
+	$(INPUTDIR)/medevents.md \
+	$(INPUTDIR)/microbiologyevents.md \
+	$(INPUTDIR)/noteevents.md \
+	$(INPUTDIR)/orderentry.md \
+	$(INPUTDIR)/poemedorder.md \
+	$(INPUTDIR)/procedureevents.md \
+	$(INPUTDIR)/totalbalevents.md \
 	-o $(OUTPUTDIR)/guidelines.pdf \
 	-H $(STYLEDIR)/preamble.tex \
 	--template $(STYLEDIR)/template.tex \
-	--csl=$(STYLEDIR)/ref_format.csl \
 	-V fontsize=11pt \
 	-V papersize=a4paper \
 	-V documentclass:report \

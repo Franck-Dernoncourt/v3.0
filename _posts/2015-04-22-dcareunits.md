@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 7
 ---
 
-#### ```D_CAREUNITS``` table
+## ```D_CAREUNITS``` table
 
 This table did not change much between version 2.6 and version 3.0, the
 only difference is that ```CUID``` 54 used to be ```CSRU```, but it is now called ```CVICU```, so the label of this care unit in version 3.0 includes both names.

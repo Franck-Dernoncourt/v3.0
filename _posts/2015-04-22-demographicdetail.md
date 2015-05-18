@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:10
 order: 11
 ---
 
-#### ```DEMOGRAPHIC_DETAIL``` table
+## ```DEMOGRAPHIC_DETAIL``` table
 
 This table contains patient demographic information such as ethnicity,
 religion, marital status as well as admission source, admission type and

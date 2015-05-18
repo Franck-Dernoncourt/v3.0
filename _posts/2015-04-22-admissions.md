@@ -6,7 +6,7 @@ date: 2015-04-22 12:48:04
 order: 2
 ---
 
-#### ```ADMISSIONS``` table
+## ```ADMISSIONS``` table
 
 The source data for the ```ADMISSIONS``` table comes from the BIDMC
 admission/discharge/transfer data set, which included hospital

@@ -6,7 +6,7 @@ date: 2015-04-22 22:45:09
 order: 3
 ---
 
-#### ```CENSUSEVENTS``` table
+## ```CENSUSEVENTS``` table
 
 The ```CENSUSEVENTS``` table tracks the changes of beds or care units and
 transfer of patients. For MIMIC2V30, this table is generated based on
