@@ -31,10 +31,6 @@ between v2.6 and v3.0. However, the ```CHARTTIME``` of ```DISCHARGE_SUMMARY```
 notes used ```DISCHARGE_TIME``` in v3.0 while the ```ADMISSION_TIME``` was
 used in v2.6.
 
-Note: Some entries in the ```NOTEEVENTS``` table contain empty text due to the
-null entry in the original text. These entries will be removed in the
-final release to avoid confusion.
-
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
 ```REC_ID``` | NUMBER | Y | Primary key

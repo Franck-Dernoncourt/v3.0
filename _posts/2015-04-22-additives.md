@@ -11,15 +11,9 @@ order: 1
 In version 2.6, patient input/output (IO) data is recorded in the
 ```IOEVENTS```, ```D_IOITEMS```, ```DELIVERIES```, ```TOTALBALEVENTS``` and ```ADDITIVES``` tables.
 
-As with the ```MEDEVENTS``` table, the ```IOEVENTS``` and ```ADDITIVES``` tables in v3.0 have some new columns like ‘```ORDERID```’, a foreign key referring to the ```ORDERENTRY``` table. Users can get more detailed medical order-related information from the ```ORDERENTRY``` table.
+The ```ADDITIVES``` tables has new columns, including ‘```ORDERID```’, a foreign key referring to the ```ORDERENTRY``` table. Users can get more detailed medical order-related information from the ```ORDERENTRY``` table.
 
-As in the ```MEDEVENTS``` table, the new IO data includes ```STARTTIME``` and
-```ENDTIME```, making calculations of total INPUT/OUTPUT volumes much
-easier.
-
-Another change to these tables is that the ‘LABEL’ of ```ITEMID``` is included
-in the table; users can do word-based searches right on the events
-table, no need to join with the ```D_ITEMS``` table first.
+The new IO data includes ```STARTTIME``` and ```ENDTIME```, making calculations of total INPUT/OUTPUT volumes more straightforward. Another change to these tables is that the ‘LABEL’ of ```ITEMID``` is included, enabling simple word-based searches without the need to join with the ```D_ITEMS``` table.
 
 **Please note that the ITEMIDs for IO and ADDITIVES ITEMS have been
 shifted up by 40001 to avoid overlapping with ITEMIDs for the CHART

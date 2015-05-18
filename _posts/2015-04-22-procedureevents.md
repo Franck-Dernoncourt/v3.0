@@ -9,13 +9,7 @@ order: 28
 ## ```PROCEDUREEVENTS``` table
 
 In v2.6, ```PROCEDUREEVENTS``` table is a relatively simple table, containing
-only 5 columns: ```SUBJECT_ID```, ```HADM_ID```, ```ITEMID```, ```SEQUENCE_NUM```, ```PROC_DT```.
-
-In v3.0, six new columns are added to this table as shown in the
-following table. The new procedures all have ```ORDERID```s, related order
-information can be found in ```ORDERENTRY``` table. We also included ‘LABEL’
-for each ```ITEMID```, make it easier for word-based searches. Also, each new
-procedure has a ‘```START```’ and ‘```END```’ time.
+only 5 columns: ```SUBJECT_ID```, ```HADM_ID```, ```ITEMID```, ```SEQUENCE_NUM```, ```PROC_DT```. In v3.0, six new columns are added to this table as shown in the following table. The new procedures all have ```ORDERID```s, related order information can be found in ```ORDERENTRY``` table. We also included ‘LABEL’ for each ```ITEMID```, make it easier for word-based searches. Also, each new procedure has a ‘```START```’ and ‘```END```’ time.
 
 In v2.6, checking for INTUBATION/EXTUBATION event and time was not an
 easy task. In the new version, it is very easy to find these events in

@@ -8,13 +8,9 @@ order: 26
 
 ## ```ORDERENTRY``` table
 
-In version 3.0, a new table – ```ORDERENTRY```, which contains all medical
-treatment order information, is added to medication related tables.
-```MEDEVENTS```, ```ADDITIVES``` and ```IOEVENTS``` now all contain ```ORDERID```, which is a foreign key referring to the ```ORDERENTRY``` table. 
+```ORDERENTRY``` is a newly added table that contains order information for all medical treatments. ```MEDEVENTS```, ```ADDITIVES``` and ```IOEVENTS``` now all contain ```ORDERID```, which is a foreign key referring to the ```ORDERENTRY``` table. 
 
-Since the new source database, MetaVision, has totally different schema design and table structures, we added new columns to the medication-related tables while trying to preserve all the data and columns from the old version.
-
-Here is a list of all columns in the newly added table – ```ORDERENTRY```.
+Since the new source database, MetaVision, has a totally different schema design and table structure, new columns were added to the medication-related tables while trying to preserve data and columns from the earlier version. Here is a list of all columns in the newly added ``ORDERENTRY``` table:
 
 Column name | Data Type | Remarks
 --- | --- | ---
