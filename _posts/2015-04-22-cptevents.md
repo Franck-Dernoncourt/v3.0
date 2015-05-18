@@ -16,3 +16,4 @@ Column name | Data type | New Column | Remarks
 ```HADM_ID``` | NUMBER(7) | Y  | Foreign key.
 ```CPT_CD``` | VARCHAR2(8)  | Y  | ?
 ```CPTEVENTSDATAID``` | NUMBER  | Y  | Unique row identifier
+

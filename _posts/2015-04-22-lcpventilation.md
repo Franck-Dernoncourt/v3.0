@@ -17,3 +17,4 @@ Column name | Data type | New Column | Remarks
 ```STARTTIME``` | X | X | ?
 ```ENDTIME``` | X | X | ?
 ```LCP_VENTILATIONDATAID``` | NUMBER | Y | Unique row identifier
+
