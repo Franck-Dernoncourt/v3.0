@@ -24,7 +24,7 @@ measure and the normal range of a measurement. This column can be very
 useful to users.
 
 Note that there is no ```VALUE2``` for the new data coming from
-MetaVision. One good example is the recording of blood pressure. In MIMIC2V26, the ```itemid=51``` (LABEL= ‘Arterial BP’) included ```VALUE1``` and ```VALUE2``` for systolic and diastolic blood pressures. For new patients in MIMIC2V30, there are two ```ITEMIDs``` for blood pressure measurements: for systolic blood pressure, the ```ITEMID=220179```, and for diastolic blood pressure, ```ITEMID=220180```.
+MetaVision. One example is the recording of blood pressure. In MIMIC2V26, the ```itemid=51``` (LABEL= ‘Arterial BP’) included ```VALUE1``` and ```VALUE2``` for systolic and diastolic blood pressures. For new patients in MIMIC2V30, there are two ```ITEMIDs``` for blood pressure measurements: for systolic blood pressure, the ```ITEMID=220179```, and for diastolic blood pressure, ```ITEMID=220180```.
 
 Column name | Data Type | New Column  | Remarks
 --- | --- | --- | ---
