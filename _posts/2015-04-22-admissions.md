@@ -42,7 +42,4 @@ Column name | Data type | New Column | Remark
 ```LAST_SERVICE``` | VARCHAR2(4) | Y | Last service unit
 ```ADMISSIONSDATAID``` | NUMBER(38) | Y | Unique row identifier
 
-*Table: Description of the columns in the ```ADMISSIONS``` table*
-
-
 

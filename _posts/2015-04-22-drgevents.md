@@ -21,5 +21,3 @@ Column name | Data type | New Column | Remarks
 ```DESCRIPTION``` | VARCHAR2(100) | Y | Description of the DRG event
 ```COST_WEIGHT``` | NUMBER(7) | Y | The weight for the DRG event
 ```DRGEVENTSDATAID``` | NUMBER | Y | Unique row identifier
-
-*Table: Description of the columns in the ```DRGEVENTS``` table*

@@ -25,4 +25,3 @@ Column name | Data type | New Column | Remarks
 ```DISCHSTATUS``` | VARCHAR2(20) | N | Discharge status
 ```CENSUSEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
-*Table: Description of the columns in the ```CENSUSEVENTS``` table*

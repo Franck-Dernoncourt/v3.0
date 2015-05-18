@@ -38,5 +38,3 @@ Column name | Data Type | Remarks
 ```ROUTE``` | VARCHAR2(60) | Route of administration
 ```POE_MED_ORDERDATAID``` | NUMBER | Unique row identifier
 
-Table: Description of the columns in the ```POE_MED_ORDER``` table
-

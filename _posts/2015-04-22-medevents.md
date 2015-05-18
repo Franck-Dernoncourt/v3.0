@@ -44,5 +44,3 @@ Column name | Data Type | New Column  | Remarks
 ```STOPPED``` | VARCHAR2(20) | N | Medication stopped
 ```MEDEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
-*Table: Description of the columns in the ```MEDEVENTS``` table*
-

@@ -47,5 +47,3 @@ Column name | Data Type | New Column  | Remarks
 ```SOURCE_FLG``` | VARCHAR2(10) | N | Source of data (v2.6 or METAVISION)
 ```ADDITIVESDATAID``` | NUMBER | N | Unique row identifier
 
-*Table: Description of the Columns in the ADDITIVES table*
-

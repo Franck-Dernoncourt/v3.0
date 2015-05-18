@@ -38,4 +38,3 @@ Column name | Data Type | Remarks
 ```CONTINUEINNEXTDEPT``` | NUMBER(1) | Order continued in external department? (0/1)
 ```ORDERENTRYDATAID``` | NUMBER | Unique row identifier
 
-*Table: Description of the columns in the ```ORDERENTRY``` table*

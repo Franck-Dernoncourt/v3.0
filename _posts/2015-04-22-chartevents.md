@@ -52,5 +52,3 @@ Column name | Data Type | New Column  | Remarks
 ```WARNING``` | NUMBER(1) | Y | For new data
 ```ERROR``` | NUMBER(1) | Y | For new data
 
-*Table: Description of the columns in the ```CHARTEVENTS``` table*
-

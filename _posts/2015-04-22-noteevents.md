@@ -22,8 +22,6 @@ Categories of Notes in v3.0 | Categories of Notes in v2.6
 ```PROVIDER_NOTE``` | *(Not available in v2.6) *
 ```RADIOLOGY_REPORT``` | ```RADIOLOGY_REPORT```
 
-*Table: Comparison of Notes *categories* in ```NOTEEVENTS``` table*
-
 The Nursing/Other category contains the nursing and respiratory
 therapist notes collected (2008 or earlier) from the CareVue system.
 Provider notes collected from the MetaVision are under the
@@ -55,7 +53,5 @@ Column name | Data Type | New Column  | Remarks
 ```EXAM_NAME``` | VARCHAR2(100) | N | Name of the examination
 ```PATIENT_INFO``` | VARCHAR2(4000) | N | Patient information
 ```NOTEEVENTSDATAID``` | NUMBER | Y | Unique row identifier
-
-*Table: Description of the Columns in the ```NOTEEVENTS``` table*
 
 

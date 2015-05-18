@@ -31,5 +31,3 @@ Column name | Data Type | New Column  | Remarks
 ```DILUTION_COMPARISON``` | VARCHAR2(10) | N | The comparison used against the dilution amount, for the test: either ```<=``` , ```=```, ```>=```, or ```null``` when not available
 ```INTERPRETATION``` | VARCHAR2(1) | N | The interpretation of the test: (```R```)esistant, (```P```)ending, (```I```)ntermediate, or (```S```)usceptible (or ```null``` when not available)
 ```MICROBIOLOGYEVENTSDATAID``` | NUMBER | Y | Unique row identifier
-
-*Table: Description of the columns in the V3.0 ```MICROBIOLOGYEVENTS``` table*

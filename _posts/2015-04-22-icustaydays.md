@@ -20,5 +20,3 @@ Column name | Data type | New Column | Remarks
 ```FIRST_DAY_FLG``` | CHAR(1) | N | The first day of the ICU stay (Y/N)
 ```LAST_DAY_FLG``` | CHAR(1) | N | The last day of the ICU stay (Y/N)
 ```ICUSTAYDAYSDATAID``` | NUMBER | Y | Unique row identifier
-
-*Table: Description of the columns in the ```ICUStay_days``` table*

@@ -8,9 +8,7 @@ order: 2
 
 ## Installing the MIMIC-II Database
 
-Before working with MIMIC-II data, you will first need to complete the [application process](first-steps.html). Once this process is complete, you will be granted access to a [set of data files on PhysioNet](https://physionet.org/works/MIMICIIClinicalDatabase/) which can be used to reconstruct the database.
-
-The process for downloading the data files and reconstructing the text-delimited tables is as follows:
+Before working with MIMIC-II data, you will first need to complete the [application process](first-steps.html). Once this process is complete, you will be granted access to a [set of data files on PhysioNet](https://physionet.org/works/MIMICIIClinicalDatabase/) which can be used to reconstruct the database. The process for downloading the data files and reconstructing the text-delimited tables is as follows:
 
 - download all of the compressed files linked from the [PhysioNet webpage](https://physionet.org/works/MIMICIIClinicalDatabase/)
 - check the integrity of the compressed files against the checksums. On a unix-based system, this can be done with:

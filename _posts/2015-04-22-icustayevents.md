@@ -24,5 +24,3 @@ Column name | Data type | New Column | Remarks
 ```FIRST_CAREUNIT``` | NUMBER | N | First care unit
 ```LAST_CAREUNIT``` | NUMBER | N | Last care unit
 ```ADMISSIONSDATAID``` | NUMBER | Y | Unique row identifier
-
-*Table: Description of the columns in the ICUStayevents table*

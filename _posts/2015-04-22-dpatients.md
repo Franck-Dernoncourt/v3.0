@@ -37,5 +37,3 @@ Column name | Data type | New Column | Remarks
 ```ZIPCODE``` | VARCHAR2(5) | Y | First three digits of the patient's home zipcode
 ```D_PATIENTSDATAID``` | NUMBER(38) | Y | Unique row identifier
 
-Table: Description of the columns in the ```D_PATIENTS``` table
-

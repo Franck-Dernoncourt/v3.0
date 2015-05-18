@@ -31,6 +31,4 @@ Column name | Data type | New Column | Remarks
 ```CGID_STATUS``` | VARCHAR2(1) | Y | ‘A’ indicates an active ```CGID```, ‘M’ indicates a merged CGID.
 ```D_CAREGIVERSDATAID``` | NUMBER(38) | Y | Unique row identifier
 
-*Table: Description of the columns in the ```D_CAREGIVERS``` table*
-
 

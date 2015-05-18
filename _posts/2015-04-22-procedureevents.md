@@ -35,5 +35,3 @@ Column name | Data Type | New Column  | Remarks
 ```CGID``` | NUMBER(7) | Y | Foreign key, referring to ```D_CAREGIVERS```
 ```PROCEDUREEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
-*Table: Description of the columns in the ```PROCEDUREEVENTS``` table*
-

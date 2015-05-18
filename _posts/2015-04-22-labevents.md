@@ -40,4 +40,3 @@ Column name | Data Type | New Column  | Remarks
 ```LOINC_CODE``` | VARCHAR2(15) | Y | LOINC code for the lab event
 ```LABEVENTSDATAID``` | NUMBER | Y | Unique row identifier
 
-*Table: Description of the columns in the ```LABEVENTS``` table*
