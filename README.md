@@ -10,4 +10,9 @@ We encourage the research community to help us develop and improve MIMIC-II. For
 
 To find out more about how to contribute, see: http://mimic2.github.io/v3.0/bac/contributing.html
 
+## Acknowledgement
 
+This documentation was built using the template provided by Byron Ruth at:
+https://github.com/bruth/jekyll-docs-template/
+
+<!-- Also look at: http://tomjohnson1492.github.io/documentation-theme-jekyll/getting_started/ -->
