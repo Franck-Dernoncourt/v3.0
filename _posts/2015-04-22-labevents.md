@@ -29,7 +29,7 @@ Column name | Data type | New column  | Remarks
 ```TEST_NAME``` | VARCHAR2(50) | Y | Included for easy word-based searches
 ```VALUE``` | VARCHAR2(200) | N | The result value of the lab event
 ```VALUENUM``` | NUMBER | N | Numeric representation of ```VALUE``` if the result was numeric.
-```VALUEUOM``` | VARCHAR2(15) | N | Units of measurement of the value of the lab event
+```VALUEUOM``` | VARCHAR2(15) | N | Units of measurement for the value of the lab event
 ```FLAG``` | VARCHAR2(10) | Y | Flag or annotation on the lab result
 ```FLUID``` | VARCHAR2(40) | Y | Type of fluid sample.
 ```CATEGORY``` | VARCHAR2(20) | Y | Category of the lab event
