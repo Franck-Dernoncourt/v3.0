@@ -16,7 +16,7 @@ In version 2.6, this table was divided into two tables, ```POE_MED``` and
 ```POE_ORDER```. However, in the new data set we have already combined the
 data from these two tables, so we just created one table.
 
-Column name | Data Type | Remarks
+Column name | Data type | Remarks
 --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | Foreign key, referring to ```ADMISSIONS```

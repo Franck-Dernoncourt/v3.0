@@ -22,7 +22,7 @@ Another change to this table in version 3.0 is that we added a new
 column - ‘```DESCRIPTION```’, which gives more detailed information about the
 Care giver. For example, a ‘MD’ can be ‘Attending’ or ‘Resident/Fellow/PA/NP’.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```CGID```| NUMBER| N | Care giver ID (the old ones from v2.6 is not unique)
 ```CG_UNIQUEID``` | NUMBER | Y | Unique ID of a care giver

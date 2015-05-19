@@ -8,7 +8,7 @@ order: 22
 
 ## ```LCP_VENTILATION``` table
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | X | ?
 ```HADM_ID``` | NUMBER(7) | X | ?

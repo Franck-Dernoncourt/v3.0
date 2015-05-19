@@ -10,7 +10,7 @@ order: 14
 
 The ```ICUSTAY_DAYS``` table is generated from the ```ICUSTAYEVENTS``` table; it basically listed the ```ICUSTAYEVENTS``` by days and marked the first and last day of ICUSTAY.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```ICUSTAY_ID``` | NUMBER(7) | N | Primary key
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign Key – referring to ```D_PATIENTS``` table

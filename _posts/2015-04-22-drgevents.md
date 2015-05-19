@@ -12,7 +12,7 @@ Another table that contains diagnosis related data is the ```DRGEVENTS```
 table; we included descriptive columns for the ```ITEMID``` in the new
 version. The following table lists all columns of ```DRGEVENTS``` in v3.0.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign Key – referring to ```D_PATIENTS``` table
 ```ITEMID``` | NUMBER(7) | N | Foreign Key – referring to ```ADMISSIONS``` table

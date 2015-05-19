@@ -12,7 +12,7 @@ order: 26
 
 Since the new source database, MetaVision, has a totally different schema design and table structure, new columns were added to the medication-related tables while trying to preserve data and columns from the earlier version. Here is a list of all columns in the newly added ``ORDERENTRY``` table:
 
-Column name | Data Type | Remarks
+Column name | Data type | Remarks
 --- | --- | ---
 ```ORDERID``` | NUMBER(7) | Primary key
 ```LINKORDERID``` | NUMBER(7) | Link to the ```ORDERID```

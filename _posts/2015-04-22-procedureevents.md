@@ -15,7 +15,7 @@ In v2.6, checking for INTUBATION/EXTUBATION event and time was not an
 easy task. In the new version, it is very easy to find these events in
 the ```PROCEDUREEVENTS``` table.
 
-Column name | Data Type | New Column  | Remarks
+Column name | Data type | New column  | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | N | Foreign key, referring to ```ADMISSIONS```

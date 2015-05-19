@@ -14,7 +14,7 @@ treatment order information, is added to medication related tables.
 
 A key change is that all new medication records have ```START``` and ```END``` times, making it more straightforward to calculate the total amount of medication. Because of this, the ```A_MEDDURATIONS``` table is no longer needed. But users can still use that table in v2.6 for any checking and calculations for the old data. The following table lists the columns of ```MEDEVENTS```: 
 
-Column name | Data Type | New Column  | Remarks
+Column name | Data type | New column  | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUSTAYEVENTS```

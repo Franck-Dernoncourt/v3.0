@@ -14,7 +14,7 @@ following rule regarding ```ICUSTAY_ID```s:
 
 **For patients transferred out of ICU units but re-admitted to the same or different ICU care unit within 24 hours, it is considered as one ICUSTAY event with the same ```ICUSTAY_ID```. However, if the patient was re-admitted back to the same or different ICU care unit after 24 hours, it is considered as a new ICUSTAY event and is assigned a new ```ICUSTAY_ID```**.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```ICUSTAY_ID``` | NUMBER(7) | N | Primary key
 ```SUBJECT_ID``` | NUMBER | N | Foreign Key – referring to ```D_PATIENTS``` table

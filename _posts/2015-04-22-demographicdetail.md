@@ -13,7 +13,7 @@ religion, marital status as well as admission source, admission type and
 insurance information. For version 3.0, this table contains ```ITEMID``` as
 well as descriptions, making word-based searches much easier.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Primary key
 ```HADM_ID``` | NUMBER(7) | N | Foreign key referring to ```ADMISSIONS``` table

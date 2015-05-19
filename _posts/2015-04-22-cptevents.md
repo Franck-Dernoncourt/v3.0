@@ -10,7 +10,7 @@ order: 5
 
 The ```CPTEVENTS``` table is new to v3.0 of the MIMIC-II database.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7)  | Y  | Foreign key.
 ```HADM_ID``` | NUMBER(7) | Y  | Foreign key.

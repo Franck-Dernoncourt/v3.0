@@ -20,7 +20,7 @@ Like other facts (…events) tables in v3.0, we included related ITEMID
 descriptive columns like ```TESTNAME```, ```FLUID```, ```CATEGORY``` and
 ```LOINC_CODE``` to facilitate word-based searches. Please note that we collect all lab events for a patient independent of when they were done. Some lab events are from subsequent clinic visits, for example.
 
-Column name | Data Type | New Column  | Remarks
+Column name | Data type | New column  | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | N | Foreign key, referring to ```ADMISSIONS```

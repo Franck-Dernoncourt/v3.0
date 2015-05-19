@@ -8,7 +8,7 @@ order: 20
 
 ## ```LCP_DAILY_SOFA``` table
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | ?
 ```ICUSTAY_ID``` | NUMBER(7) | N | ?

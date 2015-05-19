@@ -9,10 +9,10 @@ order: 3
 ## ```CENSUSEVENTS``` table
 
 The ```CENSUSEVENTS``` table tracks the changes of beds or care units and
-transfer of patients. For MIMIC2V30, this table is generated based on
+transfer of patients. For MIMIC2 v3.0, this table is generated based on
 the ```PATIENTTRACKING``` table in the MetaVision database.
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```CENSUS_ID``` | NUMBER | N | Primary key
 ```SUBJECT_ID``` | NUMBER | N | Foreign key, referring to ```D_PATIENTS``` table

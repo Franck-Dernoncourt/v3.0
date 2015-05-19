@@ -23,10 +23,10 @@ Changes to the ```ADMISSIONS``` table in v3.0 include:
 - ```ADMIT_DT``` and ```DISCH_DT``` for new admissions include date and time, while data coming from MIMIC-II v2.6 includes only date.
 - Three new columns were added: ```ADM_DIAGNOSIS```, ```FIRST_SERVICE_UNIT```, and ```LAST_SERVICE_UNIT```
 
-Column name | Data type | New Column | Remark
+Column name | Data type | New column | Remark
 --- | --- | --- | ---
-```HADM_ID ``` | NUMBER| N | Primary Key
-```SUBJECT_ID``` | NUMBER | N | Foreign Key, referring to ```D_PATIENTS``` table
+```HADM_ID ``` | NUMBER| N | Primary key
+```SUBJECT_ID``` | NUMBER | N | Foreign key, referring to ```D_PATIENTS``` table
 ```ADMIT_DT``` | DATE | N | Admission Date
 ```ADMIT_TIME``` | TIMESTAMP(6) | Y | Detailed admission time for new patients
 ```DISCH_DT``` | DATE | N | Discharge date

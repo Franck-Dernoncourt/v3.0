@@ -8,7 +8,7 @@ order: 21
 
 ## ```LCP_ELIXHAUSER_SCORES``` table
 
-Column name | Data type | New Column | Remarks
+Column name | Data type | New column | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(8) | N | ?
 ```HADM_ID``` | NUMBER(8) | N | ?

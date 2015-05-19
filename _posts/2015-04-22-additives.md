@@ -19,7 +19,7 @@ The new IO data includes ```STARTTIME``` and ```ENDTIME```, making calculations 
 shifted up by 40001 to avoid overlapping with ITEMIDs for the CHART
 ITEMS (refer to table 3).**
 
-Column name | Data Type | New Column  | Remarks
+Column name | Data type | New column  | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```ICUSTAY_ID``` | NUMBER(7) | N | Foreign key, referring to ```ICUSTAYEVENTS```

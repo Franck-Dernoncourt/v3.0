@@ -9,8 +9,8 @@ order: 4
 ## ```CHARTEVENTS``` table
 
 The ```CHARTEVENTS``` table is the largest table in the database and contains
-all bedside patient records. In version 2.6, the ```CHARTEVENTS``` table has
-about 196 million rows of data; in version 3.0, the row count of the
+all bedside patient records. In v2.6, the ```CHARTEVENTS``` table has
+about 196 million rows of data; in v3.0, the row count of the
 ```CHARTEVENTS``` table is 234 million.
 
 One change we made to the ```CHARTEVENTS``` table in v3.0 is that we renamed
@@ -26,7 +26,7 @@ useful to users.
 Note that there is no ```VALUE2``` for the new data coming from
 MetaVision. One example is the recording of blood pressure. In MIMIC2V26, the ```itemid=51``` (LABEL= ‘Arterial BP’) included ```VALUE1``` and ```VALUE2``` for systolic and diastolic blood pressures. For new patients in MIMIC2V30, there are two ```ITEMIDs``` for blood pressure measurements: for systolic blood pressure, the ```ITEMID=220179```, and for diastolic blood pressure, ```ITEMID=220180```.
 
-Column name | Data Type | New Column  | Remarks
+Column name | Data type | New column  | Remarks
 --- | --- | --- | ---
 ```SUBJECT_ID``` | NUMBER(7) | N | Foreign key, referring to ```D_PATIENTS```
 ```HADM_ID``` | NUMBER(7) | Y | Foreign key, referring to ```ADMISSIONS```
