@@ -6,7 +6,8 @@ date: 2015-06-05 15:53:24
 ---
 
 
-ITEMID (v30) | LABEL | CATEGORY | FLUID | NEW_LOINC_V30 |  |  | LABITEMID_FROM_V26 |  |  | LOINC_CODE_FROM_V26 |  |  | LOINC_DESC_FROM_V26 |  | TEST_NAME_ALREADY_MAPPED | OLD_LOINC_CODE_ALREADY_MAPPED | COMMENT
+ITEMID (v30) | LABEL | CATEGORY | FLUID | NEW_LOINC_V30 | LABITEMID_FROM_V26 | LOINC_CODE_FROM_V26 | LOINC_DESC_FROM_V26  | TEST_NAME_ALREADY_MAPPED | OLD_LOINC_CODE_ALREADY_MAPPED | COMMENT
+------------ | ----- | -------- | ----- | ------------- | ----------------- | -------- | ------- | ------ | 
 50804 | CARBOXYHEMOGLOBIN | BLOOD GAS | BLOOD |  |  | 50003 |  | Carboxyhemoglobin/Hemoglobin.total in Blood | CARBOXYHB | 20563-3 | 
 50811 | INTUBATED | BLOOD GAS | BLOOD |  |  | 50008 |  |  | INTUBATED |  | 
 50812 | LACTATE | BLOOD GAS | BLOOD |  |  | 50010 |  | Lactate [Moles/volume] in Blood | LACTATE | 32693-4 | 
