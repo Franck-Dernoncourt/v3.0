@@ -15,5 +15,7 @@ before_install:
   - chmod +x make
 
 # Attempt to create a PDF
-script: bash make pdf
+script: 
+  - bash echo "hello"
+  # - bash make pdf
 
