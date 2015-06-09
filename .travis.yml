@@ -10,10 +10,8 @@ branches:
 language: bash
 
 # Try install Pandoc
-before_install:
-  - sudo apt-get install pandoc
+before_install: sudo apt-get install pandoc
 
 # Attempt to create a PDF
-script:
-    - bash make pdf
+script: bash make pdf
 
