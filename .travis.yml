@@ -12,7 +12,7 @@ language: bash
 # Try install Pandoc
 before_install: 
   - sudo apt-get install pandoc
-  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra
 
 # Attempt to create a PDF
 script: 
