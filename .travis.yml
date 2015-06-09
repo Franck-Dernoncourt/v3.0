@@ -1,6 +1,11 @@
 # Link repository with Travis CI
 # https://travis-ci.org/
 
+# Whitelist gh-pages branch
+branches:
+  only:
+    - gh-pages
+
 # Set the language
 language: bash
 
