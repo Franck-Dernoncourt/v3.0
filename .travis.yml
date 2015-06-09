@@ -12,10 +12,10 @@ language: bash
 # Try install Pandoc
 before_install: 
   - sudo apt-get install pandoc
-  # - chmod +x make
+  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
 
 # Attempt to create a PDF
 script: 
   - make pdf
-  # - bash make pdf
+
 
