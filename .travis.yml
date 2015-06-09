@@ -1,0 +1,10 @@
+# Link repository with Travis CI
+# https://travis-ci.org/
+
+# Set the language
+language: bash
+
+# Attempt to create a PDF
+script:
+    - bash make pdf
+
