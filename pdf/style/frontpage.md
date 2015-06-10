@@ -21,7 +21,7 @@ and add the centred logo
         \Large
         By:\\
         Tom Pollard; Alistair Johnson; Mornin Feng;\\
-        Franck Dernoncourt; Lu Shen;\\
+        Franck Dernoncourt; Lu Shen; Ken Paik\\
         and the MIT Lab for Computational Physiology\\
         
 
