@@ -15,7 +15,6 @@ The database supports a diverse range of analytic studies spanning epidemiology,
 
 This website is intended to help researchers to set up and use version 3.0 of the MIMIC-II database. Please [help us](bac/contributing.html) to develop and improve the documentation.
 
-A PDF version of these guidelines can be downloaded using the following link:
-[https://github.com/mimic2/v3.0/blob/gh-pages/pdf/guidelines.pdf](https://github.com/mimic2/v3.0/blob/gh-pages/pdf/guidelines.pdf)
+**A PDF version of these guidelines can be downloaded using the following link**: [http://mimic2.github.io/v3.0/pdf/guidelines.pdf](http://mimic2.github.io/v3.0/pdf/guidelines.pdf)
 
 
