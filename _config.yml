@@ -21,6 +21,7 @@ codeurl: 'http://mimic2.github.io/v3.0/'
 sections: [
     ['bac', 'Background'],
     ['ins', 'Accessing MIMIC'],
+    ['code', 'Code'],
     ['dat', 'Database'],
 #    ['doc', 'Documentation'],
 #    ['tut', 'Tutorial'],
@@ -30,6 +31,9 @@ sections: [
     ['ref', 'Reference'],
     ['app', 'Appendix']
 ]
+
+# Create new pages with: 
+# ruby bin/jekyll-page "Some Page Title" ref
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
