@@ -14,8 +14,7 @@
  Notes:
  - Identify patients with cancer/malignancy using Elixhauser comorbidities
  - Focus only on ICUstays added between V2.6 and V3.0
- - Compute 30-day mortality (from ICU admission)
- - Count 30 day survival by ICU admission
+ - Compute 30-day mortality (from date of admission to ICU)
 */
 
 -- Get comorbidities
