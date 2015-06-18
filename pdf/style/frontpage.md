@@ -20,7 +20,9 @@ and add the centred logo
 
         \Large
         By:\\
-        Dr Roger Mark\\
+        Tom Pollard; Alistair Johnson; Mornin Feng;\\
+        Franck Dernoncourt; Lu Shen; Ken Paik\\
+        and the MIT Lab for Computational Physiology\\
         
 
         \vspace{1.5cm}

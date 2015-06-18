@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mimic2/v3.0.svg?branch=gh-pages)](https://travis-ci.org/mimic2/v3.0)
+
 # User guide for the MIMIC-II database
 
 MIMIC-II is a widely-accessible database that is intended to support research into critical care, for the benefit of patients. 

@@ -14,3 +14,7 @@ The MIMIC-II research database (Multiparameter Intelligent Monitoring in Intensi
 The database supports a diverse range of analytic studies spanning epidemiology, clinical decision-rule improvement, and electronic tool development.
 
 This website is intended to help researchers to set up and use version 3.0 of the MIMIC-II database. Please [help us](bac/contributing.html) to develop and improve the documentation.
+
+**A PDF version of these guidelines can be downloaded using the following link**: [http://mimic2.github.io/v3.0/pdf/guidelines.pdf](http://mimic2.github.io/v3.0/pdf/guidelines.pdf)
+
+

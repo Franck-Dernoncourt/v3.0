@@ -2,7 +2,7 @@ PY=python
 PANDOC=pandoc
 
 BASEDIR=$(CURDIR)/pdf
-INPUTDIR=$(CURDIR)/_pages
+INPUTDIR=$(CURDIR)/_posts
 OUTPUTDIR=$(BASEDIR)/
 STYLEDIR=$(BASEDIR)/style
 
@@ -22,40 +22,40 @@ help:
 pdf:
 	pandoc $(STYLEDIR)/frontpage.md \
 	$(STYLEDIR)/table_of_contents.md \
-	$(INPUTDIR)/introduction.md \
-	$(INPUTDIR)/whats-new.md \
-	$(INPUTDIR)/contributing.md \
-	$(INPUTDIR)/first-steps.md \
-	$(INPUTDIR)/installation.md \
-	$(INPUTDIR)/overview.md \
-	$(INPUTDIR)/additives.md \
-	$(INPUTDIR)/admissions.md \
-	$(INPUTDIR)/censusevents.md \
-	$(INPUTDIR)/chartevents.md \
-	$(INPUTDIR)/cptevents.md \
-	$(INPUTDIR)/dcaregivers.md \
-	$(INPUTDIR)/dcareunits.md \
-	$(INPUTDIR)/ditems.md \
-	$(INPUTDIR)/dpatients.md \
-	$(INPUTDIR)/dunits.md \
-	$(INPUTDIR)/demographicdetail.md \
-	$(INPUTDIR)/drgevents.md \
-	$(INPUTDIR)/icd9.md \
-	$(INPUTDIR)/icustayevents.md \
-	$(INPUTDIR)/ioevents.md \
-	$(INPUTDIR)/labevents.md \
-	$(INPUTDIR)/lcpcomorbidityscores.md \
-	$(INPUTDIR)/lcpdailysapsi.md \
-	$(INPUTDIR)/lcpdailysofa.md \
-	$(INPUTDIR)/lcpelixhauserscores.md \
-	$(INPUTDIR)/lcpventilation.md \
-	$(INPUTDIR)/medevents.md \
-	$(INPUTDIR)/microbiologyevents.md \
-	$(INPUTDIR)/noteevents.md \
-	$(INPUTDIR)/orderentry.md \
-	$(INPUTDIR)/poemedorder.md \
-	$(INPUTDIR)/procedureevents.md \
-	$(INPUTDIR)/totalbalevents.md \
+	$(INPUTDIR)/2015-04-22-introduction.md \
+	$(INPUTDIR)/2015-04-24-whats-new.md \
+	$(INPUTDIR)/2015-04-23-contributing.md \
+	$(INPUTDIR)/2015-05-18-first-steps.md \
+	$(INPUTDIR)/2015-05-18-installation.md \
+	$(INPUTDIR)/2015-05-18-overview.md \
+	$(INPUTDIR)/2015-04-22-additives.md \
+	$(INPUTDIR)/2015-04-22-admissions.md \
+	$(INPUTDIR)/2015-04-22-censusevents.md \
+	$(INPUTDIR)/2015-04-22-chartevents.md \
+	$(INPUTDIR)/2015-04-22-cptevents.md \
+	$(INPUTDIR)/2015-04-22-dcaregivers.md \
+	$(INPUTDIR)/2015-04-22-dcareunits.md \
+	$(INPUTDIR)/2015-04-22-ditems.md \
+	$(INPUTDIR)/2015-04-22-dpatients.md \
+	$(INPUTDIR)/2015-04-22-dunits.md \
+	$(INPUTDIR)/2015-04-22-demographicdetail.md \
+	$(INPUTDIR)/2015-04-22-drgevents.md \
+	$(INPUTDIR)/2015-04-22-icd9.md \
+	$(INPUTDIR)/2015-04-22-icustayevents.md \
+	$(INPUTDIR)/2015-04-22-ioevents.md \
+	$(INPUTDIR)/2015-04-22-labevents.md \
+	$(INPUTDIR)/2015-04-22-lcpcomorbidityscores.md \
+	$(INPUTDIR)/2015-04-22-lcpdailysapsi.md \
+	$(INPUTDIR)/2015-04-22-lcpdailysofa.md \
+	$(INPUTDIR)/2015-04-22-lcpelixhauserscores.md \
+	$(INPUTDIR)/2015-04-22-lcpventilation.md \
+	$(INPUTDIR)/2015-04-22-medevents.md \
+	$(INPUTDIR)/2015-04-22-microbiologyevents.md \
+	$(INPUTDIR)/2015-04-22-noteevents.md \
+	$(INPUTDIR)/2015-04-22-orderentry.md \
+	$(INPUTDIR)/2015-04-22-poemedorder.md \
+	$(INPUTDIR)/2015-04-22-procedureevents.md \
+	$(INPUTDIR)/2015-04-22-totalbalevents.md \
 	-o $(OUTPUTDIR)/guidelines.pdf \
 	-H $(STYLEDIR)/preamble.tex \
 	--template $(STYLEDIR)/template.tex \
