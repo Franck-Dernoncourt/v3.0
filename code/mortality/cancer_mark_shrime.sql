@@ -1,5 +1,5 @@
 /*
-  cancer_mark_shrine.sql
+  cancer_mark_shrime.sql
 
   Created on   : 24 June 2015 by Tom Pollard
   Last updated :
@@ -12,7 +12,7 @@
  - Must run on brp2 server
  
  Notes:
- - Data requested by Mark Shrine and Peggy Li
+ - Data requested by Mark Shrime and Peggy Li
  - *PROVISIONAL RESULTS ONLY*
  - *EXTRACTED FROM BETA VERSION OF MIMIC-II v3.0*
  - Identify patients with cancer/malignancy using Elixhauser comorbidities
