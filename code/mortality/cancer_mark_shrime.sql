@@ -42,8 +42,8 @@ WITH comorb AS (
 )
 -- Get ICU_intime, dob, dod
 , demogs AS (
-  SELECT p.subject_id, p.sex, p.dob, p.dod, a.intime,
-  a.icustay_id, a.outtime
+  SELECT p.subject_id, p.sex, p.dob, p.dod, a.intime icu_intime,
+  a.icustay_id, a.outtime icu_outtime
   FROM MIMIC2V30B.D_PATIENTS p
   LEFT JOIN MIMIC2V30B.ICUSTAYEVENTS a
   ON p.subject_id = a.subject_id
@@ -51,36 +51,43 @@ WITH comorb AS (
 ),
 all_data AS (
 -- Compute 30 day mortality
-SELECT distinct d.subject_id, d.icustay_id,
+SELECT distinct d.subject_id, d.icustay_id,c.hadm_id,
 CASE 
   WHEN d.dod IS null THEN 0
-  WHEN (d.dod - cast(d.intime as date)) > 30 THEN 0
-  WHEN (d.dod - cast(d.intime as date)) <= 30 THEN 1
+  WHEN (d.dod - cast(d.icu_intime as date)) > 30 THEN 0
+  WHEN (d.dod - cast(d.icu_intime as date)) <= 30 THEN 1
 ELSE null
 END as mort_30,
 -- round(d.dod - cast(d.intime as date)) as dt_diff,
 -- Compute in-ICU mortality
 CASE 
-  WHEN d.dod BETWEEN cast(d.intime as date)-1 AND cast(d.outtime as date)+1 THEN 1
+  WHEN d.dod BETWEEN cast(d.icu_intime as date)-1 AND cast(d.icu_outtime as date)+1 THEN 1
   ELSE 0
 END as mort_icu,
-c.icustay_id icustay_id2, c.cancer, d.intime, d.dod,
-d.outtime, d.sex, d.dob
-, ROW_NUMBER () OVER (PARTITION BY d.subject_id ORDER BY d.intime desc) as rn
+c.cancer, d.icu_intime, d.dod, d.icu_outtime, d.sex, d.dob
+, ROW_NUMBER () OVER (PARTITION BY d.subject_id ORDER BY d.icu_intime desc) as rn
 from comorb c
 left join demogs d
 on c.icustay_id = d.icustay_id
 order by d.subject_id
 )
 -- Show the results
-SELECT a.subject_id, a.icustay_id, a.sex, a.mort_30, a.mort_icu, a.intime, 
-a.outtime, a.dob, a.dod, s.icustay_day, s.sofa_total,
+SELECT a.subject_id, a.icustay_id, a.hadm_id, a.mort_30, a.mort_icu, 
+CASE 
+  WHEN a.dod BETWEEN adm.admit_dt-1 AND adm.disch_dt+1 THEN 1
+  ELSE 0
+END as mort_hosp,
+a.dob, a.dod, a.sex,
+adm.admit_dt hosp_admit_dt, adm.disch_dt hosp_disch_dt,
+a.icu_intime, a.icu_outtime, s.icustay_day, s.sofa_total,
 s.respiratory_failure as sofa_resp,s.neurological_score as sofa_neuro, 
 s.cardiovascular_score_final as sofa_cardio, s.hepatic_score as sofa_hep,
 s.hematologic_score as sofa_hema,s.renal_score as sofa_ren
 FROM all_data a
 INNER JOIN mimic2v30b.LCP_DAILY_SOFA s
 ON a.icustay_id = s.icustay_id
+LEFT JOIN mimic2v30b.admissions adm
+ON a.hadm_id=adm.hadm_id
 WHERE rn = 1
 AND s.icustay_day in (1,2)
 ORDER BY a.subject_id, s.icustay_day;
