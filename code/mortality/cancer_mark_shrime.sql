@@ -72,7 +72,7 @@ on c.icustay_id = d.icustay_id
 order by d.subject_id
 )
 -- Show the results
-SELECT a.subject_id, a.icustay_id, a.hadm_id, a.mort_30, a.mort_icu, 
+SELECT a.subject_id, a.cancer, a.icustay_id, a.hadm_id, a.mort_30, a.mort_icu, 
 CASE 
   WHEN a.dod BETWEEN adm.admit_dt-1 AND adm.disch_dt+1 THEN 1
   ELSE 0
