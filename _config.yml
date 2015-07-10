@@ -21,6 +21,7 @@ codeurl: 'http://mimic2.github.io/v3.0/'
 sections: [
     ['bac', 'Background'],
     ['ins', 'Accessing MIMIC'],
+    ['new','What's new in v3.0?'],
     ['code', 'Code'],
     ['dat', 'Database'],
 #    ['doc', 'Documentation'],
