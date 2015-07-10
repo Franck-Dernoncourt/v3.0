@@ -10,9 +10,9 @@ The MIMIC II database was collected as part of a Bioengineering Research Partner
 The BRP project aimed to evaluate advanced intensive care unit (ICU) patient monitoring systems, with the eventual goal of improving the efficiency, accuracy and timeliness of patient care delivered in the ICU.
 The project was established in October 2003 and included an interdisciplinary team from academia (MIT), industry (Philips Medical Systems) and clinical medicine (Beth Israel Deaconess Medical Center).
 
-## MIMIC-II research database (v3.0)
+## MIMIC-II research database
 
-The MIMIC-II research database (Multiparameter Intelligent Monitoring in Intensive Care) is notable for three factors: 
+The MIMIC-II research database is notable for three factors: 
 
 - it is publicly and freely available; 
 - it encompasses a diverse and very large population of ICU patients; 
