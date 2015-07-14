@@ -22,7 +22,7 @@ sections: [
     ['bac', 'Background'],
     ['ins', 'Accessing MIMIC'],
     ['new', 'From v2.6 to v3.0'],
-    ['code', 'Code'],
+    ['com', 'Community'],
     ['dat', 'Database'],
 #    ['doc', 'Documentation'],
 #    ['tut', 'Tutorial'],
