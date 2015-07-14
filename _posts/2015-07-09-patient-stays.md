@@ -30,6 +30,10 @@ Given that patients can be transferred in and out of the ICU for various reasons
 
 # How is this different from MIMIC II v2.6?
  
-There are two major differences between the above and v2.6:
+There are two major differences between the above and v2.6.
 
- 1. Hospital admissions (`HADM_ID`) are defined in v2.6 by the 
+First, All `ICUSTAY_ID` have a corresponding `HADM_ID`, and all `HADM_ID` have a corresponding `SUBJECT_ID`. 
+In MIMIC II v2.6, some `ICUSTAY_ID` did not have an associated `HADM_ID`, and some `HADM_ID` did not have an `ICUSTAY_ID`. This is very confusing, and a large amount of effort was made to ensure these identifiers would be linked. 
+
+Hospital admissions (`HADM_ID`) are defined in v2.6 by the *ICU* database, where as in v3.0 they are defined by the *hospital* database. This has a few ramifications. As there were records in the ICU database which were missing in the hospital database, and vice versa. We have performed a union of these two sets: if a hospital record number was not present in both sets, it was excluded from the release. There were approximately 3,500 admissions in the ICU database which were not in the hospital database. It is unclear why this occurred - while some were clearly test admissions (First name "Test", second name "Patient") - and others had incorrect hospital record numbers (such as 123456) - a large amount seemed to be valid admissions. This is an ongoing issue in the current release, and we hope to locate these patients in a future hospital data extraction and re-integrate their admissions into the data.
+One advantage of this approach is the integration of the previously unavailable admission/discharge/transfer (ADT) data. The ADT data contains all patient movement throughout the hospital. This data is the source of the new `TRANSFERS` table, which is similar to the old `CENSUSEVENTS` table. While the table still contains data regarding a patient's hospital admission, it now also includes information regarding inter-ward transfers (including to/from surgery) and has improved precision (earlier dates have been replaced by timestamps). This change is retroactive to all patients in the MIMIC database.
