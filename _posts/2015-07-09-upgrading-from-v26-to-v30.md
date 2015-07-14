@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Upgrading from v2.6 to v3.0"
+title: "Overview"
 category: new
 date: 2015-07-09 10:15:19
 order: 1
