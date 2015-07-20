@@ -4,6 +4,12 @@ $if(fontfamily)$
 $else$
 \usepackage{lmodern}
 $endif$
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}

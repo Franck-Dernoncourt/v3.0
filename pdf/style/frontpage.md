@@ -19,10 +19,10 @@ and add the centred logo
         \vspace{4.5cm}
 
         \Large
-        By:\\
-        Tom Pollard; Alistair Johnson; Mornin Feng;\\
-        Franck Dernoncourt; Lu Shen; Ken Paik\\
-        and the MIT Lab for Computational Physiology\\
+        Documentation written by:\\
+        Tom Pollard; Alistair Johnson; Mornin Feng; Mohammad Ghassemi; \\
+        Franck Dernoncourt; Lu Shen; Ken Paik \\
+        and the MIT Lab for Computational Physiology \\
         
 
         \vspace{1.5cm}
